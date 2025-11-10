@@ -1,0 +1,58 @@
+[
+  {
+    "source": "twitter",
+    "lang": "fr",
+    "text": "@raouf_rezg15426 Monastir dans le parc Je rentre le 10 novembre et je n'ai pas envie de rentrer, comme à chaque fois.",
+    "sentiment": "negative",
+    "event_type": "personal"
+  },
+  {
+    "source": "twitter",
+    "lang": "fr",
+    "text": "@oscuroo_ Ohhhhh je vois ! Moi du côté de sousse / monastir jsp si tu connais",
+    "sentiment": "neutral",
+    "event_type": "social"
+  },
+  {
+    "source": "twitter",
+    "lang": "fr",
+    "text": "@ErtaOption @legoatmessi_ @DzayerOffensive Il est né et enterré à Monastir pas à Tripoli on vous le laisse hein",
+    "sentiment": "neutral",
+    "event_type": "history"
+  },
+  {
+    "source": "twitter",
+    "lang": "ar",
+    "text": "@Moha_mmed_1907 الشبيبة عاملين مشروع كويس جدا بيعتمدوا علي المواهب وكسبوا المنستير في تونس تلاتة صفر علي الواقف والجيش الملكي فريق كويس اضعف فريق يانج بس هيبقي غلس شوية علي ارضه",
+    "sentiment": "positive",
+    "event_type": "sports"
+  },
+  {
+    "source": "twitter",
+    "lang": "ar",
+    "text": "@samiestt اعتقد صعب التوقع حاليا لكن شبيبة القيائل قوي جدا فازو على المنستير 5-1 وهو رقم صعب تاريخيا في افريقيا وحاليا في الجزائر",
+    "sentiment": "negative",
+    "event_type": "sports"
+  },
+  {
+    "source": "twitter",
+    "lang": "fr",
+    "text": "@Skobii942 Chermiti si il continue comme ca il va finire en usmo Monastir pour lancer sa carriere 😂",
+    "sentiment": "positive",
+    "event_type": "sports"
+  },
+  {
+    "source": "twitter",
+    "lang": "ar",
+    "text": "@HMeghribi قيس سعيد العبد المطيع لتبون الذي سيجعل من وطننا الجميل و مناطقنا الخلابة مثل سيدي بوسعيد و المرسى و حمامات و جربة و القيروان و واحة الجريد و باردو و قرطاج و باب بحر و البلاد العربي و المنستير و عين دراهم مناطق الجزائرية يعرف بالموضوع",
+    "sentiment": "negative",
+    "event_type": "politics"
+  },
+  {
+    "source": "twitter",
+    "lang": "ar",
+    "text": "هذا أقدم مسجد في أوروبا( مسجد المنستير لا ريال)،بناه موسى بن نصير -رحمه الله- في قرية المونستير. ما يزال أهل القرية المسلمون يعقدون القران داخله،كما يحتضن العديد من الأنشطة الثقافية الدينية وغيرها المسجد يقع في أعلى تلة تطل على القرية .",
+    "sentiment": "positive",
+    "event_type": "landmark"
+  }
+]

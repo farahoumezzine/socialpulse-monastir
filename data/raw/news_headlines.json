@@ -1,0 +1,74 @@
+[
+  {
+    "source": "kapitalis",
+    "lang": "fr",
+    "text": "Conférence internationale sur la chimie des solutions à Monastir",
+    "date": "2025-11-01",
+    "event_type": "science",
+    "sentiment": "positive"
+  },
+  {
+    "source": "kapitalis",
+    "lang": "fr",
+    "text": "Bébés tortues en route vers la mer, Campagne de nettoyage à Monastir",
+    "date": "2025-11-02",
+    "event_type": "environment",
+    "sentiment": "positive"
+  },
+  {
+    "source": "kapitalis",
+    "lang": "fr",
+    "text": "«Protéger notre mer, c’est protéger la vie»",
+    "date": "2025-11-02",
+    "event_type": "environment",
+    "sentiment": "positive"
+  },
+  {
+    "source": "kapitalis",
+    "lang": "fr",
+    "text": "Vaste campagne de propreté à Monastir (Photos)",
+    "date": "2025-11-03",
+    "event_type": "environment",
+    "sentiment": "positive"
+  },
+  {
+    "source": "kapitalis",
+    "lang": "fr",
+    "text": "Kaïs Saïed s’enquiert de la situation environnementale à Monastir",
+    "date": "2025-11-03",
+    "event_type": "politics",
+    "sentiment": "neutral"
+  },
+  {
+    "source": "kapitalis",
+    "lang": "fr",
+    "text": "Campagne antirabique : Vaccination gratuite des chats et des chiens à Monastir",
+    "date": "2025-11-04",
+    "event_type": "health",
+    "sentiment": "positive"
+  },
+  {
+    "source": "kapitalis",
+    "lang": "fr",
+    "text": "Notre Grand Bleu : Sysy, la tortue caouanne sauvée à Monastir",
+    "date": "2025-10-30",
+    "event_type": "environment",
+    "sentiment": "positive"
+  },
+  {
+    "source": "kapitalis",
+    "lang": "fr",
+    "text": "La «marée rouge» à Monastir inquiète les autorités tunisiennes",
+    "date": "2025-10-29",
+    "event_type": "environment",
+    "sentiment": "negative"
+  },
+  {
+    "source": "kapitalis",
+    "lang": "fr",
+    "text": "Coupures d’électricité, ce dimanche, à Monastir : Les zones concernées (Steg)",
+    "date": "2025-11-03",
+    "event_type": "infrastructure",
+    "sentiment": "negative"
+  }
+]

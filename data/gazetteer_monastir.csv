@@ -1,0 +1,27 @@
+entity_type,name_fr,name_ar,name_en,aliases,wikidata_id
+city,Monastir,المنستير,Monastir,"Monastir, El Monastir, المنستير",Q104371
+district,Médina Est (1er arrondissement),المدينة الشرقية (الدائرة الأولى),Medina East (1st District),"Avenue Moufida Bourguiba, Médina Est", 
+district,Médina Ouest (2e arrondissement),المدينة الغربية (الدائرة الثانية),Medina West (2nd District),"Avenue du Combattant Suprême, Médina Ouest", 
+district,Skanès,سكنس,Skanes,"Skanes, Avenue Mohamed Hedi Khefecha",Q115774093
+district,Helya,الهلالية,Helya,"Hélia, Cité Bassatine", 
+landmark,Ribat de Monastir,رباط المنستير,Ribat of Monastir,"Ribat, رباط, Ribat Monastir",Q1751726
+landmark,Mausolée de Habib Bourguiba,ضريح الحبيب بورقيبة,Habib Bourguiba Mausoleum,"Mausolée, ضريح بورقيبة",Q1757631
+landmark,Grande Mosquée de Monastir,الجامع الكبير بالمنستير,Great Mosque of Monastir,"Jama3 Kbira, Mosquée, الجامع الكبير",Q115774094
+hospital,Hôpital Régional de Monastir,مستشفى المنستير الجهوي,Monastir Regional Hospital,"Hopital Monastir, مستشفى الجهوي",Q63979812
+airport,Aéroport International Habib Bourguiba,مطار الحبيب بورقيبة الدولي,Habib Bourguiba International Airport,"Aéroport Monastir, مطار المنستير, Monastir Airport",Q1098403
+beach,Plage de l'Aéroport,شاطئ المطار,Airport Beach,"Plage Aeroport, شاطئ المطار, Plage Aéroport",Q115774092
+beach,Plage de Tourbet,شاطئ تربة,Tourbet Beach,"شاطئ تربة, Plage Tourbet", 
+university,Université de Monastir,جامعة المنستير,University of Monastir,"Faculté Monastir, جامعة المنستير",Q1053862
+university,Faculté de Médecine de Monastir,كلية الطب بالمنستير,Faculty of Medicine of Monastir,"Medecine Monastir, كلية الطب",Q115774095
+road,Route Nationale 1 (RN1),الطريق الوطنية 1,National Road 1,"RN1, الطريق الساحلي, Route Nationale",Q115774096
+road,Avenue Habib Bourguiba,شارع الحبيب بورقيبة,Habib Bourguiba Avenue,"Avenue Bourguiba, شارع بورقيبة", 
+event,Festival International de Monastir,المهرجان الدولي بالمنستير,Monastir International Festival,"Festival Monastir, مهرجان المنستير", 
+park,Parc de la Médina,حديقة المدينة,Médina Park,"Parc Monastir, حديقة المدينة", 
+stadium,Stade Mustapha Ben Jannet,ملعب مصطفى بن جنات,Mustapha Ben Jannet Stadium,"Stade Monastir, ملعب المنستير",Q115774097
+mosque,Mosquée Sidi Zid,مسجد سيدي زيد,Sidi Zid Mosque,"سيدي زيد, Mosquée Zid",Q115774098
+cemetery,Cimetière Sidi Zid,مقبرة سيدي زيد,Sidi Zid Cemetery,"مقبرة سيدي زيد", 
+port,Port de Plaisance de Monastir,مرسى المنستير,Monastir Marina,"Marina Monastir, مرسى المنستير", 
+market,Marché Central de Monastir,السوق المركزي بالمنستير,Monastir Central Market,"Souk Monastir, السوق المركزي", 
+garden,Jardin des Palmiers,حديقة النخيل,Palm Garden,"حديقة النخيل, Jardin Palmiers", 
+museum,Musée du Sahel,متحف الساحل,Sahel Museum,"متحف المنستير, Musée Monastir",Q115774099
+sports_complex,Complexe Sportif de Monastir,المجمع الرياضي بالمنستير,Monastir Sports Complex,"Complexe Sportif, المجمع الرياضي", 

@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "text": "3aslema les gens 🙌 sbah el khir men Monastir 🌞 el b7ar elyoum hbel 😍💙",
+    "sentiment": "positive",
+    "event_type": "tourisme"
+  },
+  {
+    "id": 2,
+    "text": "thama trafik 9wi fel centre 😩 makch tnajm tet3eda b karhba!",
+    "sentiment": "negative",
+    "event_type": "trafic"
+  },
+  {
+    "id": 3,
+    "text": "barcha ness fi corniche Monastir 🎉 jaw raw3a w musique 3alya 🔥",
+    "sentiment": "positive",
+    "event_type": "tourisme"
+  },
+  {
+    "id": 4,
+    "text": "9ass l courant fi Khniss w hatta notification ma fama 😠 ye5y STEG winhom?",
+    "sentiment": "negative",
+    "event_type": "panne_électrique"
+  },
+  {
+    "id": 5,
+    "text": "USMonastir 3malet match heyel 🔥🏀 respect les gars!",
+    "sentiment": "positive",
+    "event_type": "sport"
+  },
+  {
+    "id": 6,
+    "text": "el plage m3abba zbel 🤢 wallahi 3ib 3la baladiya ma tnadhefch",
+    "sentiment": "negative",
+    "event_type": "environnement"
+  },
+  {
+    "id": 7,
+    "text": "9a3din nochrbou 9ahwa ☕ fel port w na7kiw 3la jaw Monastir 😌",
+    "sentiment": "neutral",
+    "event_type": "vie_locale"
+  },
+  {
+    "id": 8,
+    "text": "el car wa5ret barcha 😤 w nas mtaycha fel mahata ma fama 7ata tanthim",
+    "sentiment": "negative",
+    "event_type": "transport"
+  },
+  {
+    "id": 9,
+    "text": "festival el Medina bda lyom 💃 jaw 3alekher w el musique top 👏",
+    "sentiment": "positive",
+    "event_type": "culture"
+  },
+  {
+    "id": 10,
+    "text": "el connexion ta7et 😩 7ala 7lila",
+    "sentiment": "negative",
+    "event_type": "panne_internet"
+  }
+]
