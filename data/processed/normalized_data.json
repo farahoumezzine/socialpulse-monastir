@@ -1,0 +1,526 @@
+[
+  {
+    "id": 1,
+    "text": "اليوم الرباط مَعَبّي — الافتتاح الكبير متاع مهرجان المنستير والدنيا حلوة 🎶😍.",
+    "source_event": "مهرجان المنستير الدولي",
+    "sentiment": "positive",
+    "event_type": "culture",
+    "source": "darija_events",
+    "clean_text": "اليوم الرباط معبي — الافتتاح الكبير متاع مهرجان المنستير والدنيا حلوه musical notes:smiling face with heart-eyes:.",
+    "detected_lang": "ar"
+  },
+  {
+    "id": 2,
+    "text": "صراحة التنظيم في مهرجان المنستير موش قدّ التوقعات، برشا تأخير وناس تزاحمت 😕😓.",
+    "source_event": "مهرجان المنستير الدولي",
+    "sentiment": "negative",
+    "event_type": "culture",
+    "source": "darija_events",
+    "clean_text": "صراحه التنظيم في مهرجان المنستير موش قد التوقعات، برشا تاخير وناس تزاحمت confused facedowncast face with sweat.",
+    "detected_lang": "ar"
+  },
+  {
+    "id": 3,
+    "text": "تذكير: غدوة عند Palace des Sciences عرض فيلم 'Parasol' على الساعَة 18:30 — اللي حبّ يحجز يسرع 📢.",
+    "source_event": "عرض فيلم في قصر العلوم بالمنستير",
+    "sentiment": "neutral",
+    "event_type": "culture",
+    "source": "darija_events",
+    "clean_text": "تذكير: غدوه عند Palace des Sciences عرض فيلم 'Parasol' علي الساعه 18:30 — اللي حب يحجز يسرع loudspeaker.",
+    "detected_lang": "ar"
+  },
+  {
+    "id": 4,
+    "text": "اليوم الملعب عامر: مباراة يو.إس. المنستير كانت قوية والناس كانت تشجّع بكري ⚽🔥.",
+    "source_event": "مباراة US Monastir",
+    "sentiment": "positive",
+    "event_type": "sports",
+    "source": "darija_events",
+    "clean_text": "اليوم الملعب عامر: مباراه يو.اس. المنستير كانت قويه والناس كانت تشجع بكري soccer ballfire.",
+    "detected_lang": "ar"
+  },
+  {
+    "id": 5,
+    "text": "الملاعب الجديدة مازال فيها مشاكل في الإضاءة، البارح المقابلة تعطلت 😩💡.",
+    "source_event": "ملاعب رياضية جديدة في المنستير",
+    "sentiment": "negative",
+    "event_type": "sports",
+    "source": "darija_events",
+    "clean_text": "الملاعب الجديده مازال فيها مشاكل في الاضاءه، البارح المقابله تعطلت weary facelight bulb.",
+    "detected_lang": "ar"
+  },
+  {
+    "id": 6,
+    "text": "لاصحاب الطبخ: السوق المركزي فيه خضر طازجة وطماطم بنينة اليوم — حصلت شوية عروض 👩‍🍳🥬.",
+    "source_event": "السوق المركزي في المنستير",
+    "sentiment": "positive",
+    "event_type": "community",
+    "source": "darija_events",
+    "clean_text": "لاصحاب الطبخ: السوق المركزي فيه خضر طازجه وطماطم بنينه اليوم — حصلت شويه عروض woman cookleafy green.",
+    "detected_lang": "ar"
+  },
+  {
+    "id": 7,
+    "text": "البهجة في الشارع قُدام الرباط، التصاور والموسيقى ما تفلتش — الجو سياحي وحلو 🎉📸.",
+    "source_event": "مهرجان المنستير الدولي",
+    "sentiment": "positive",
+    "event_type": "culture",
+    "source": "darija_events",
+    "clean_text": "البهجه في الشارع قدام الرباط، التصاور والموسيقي ما تفلتش — الجو سياحي وحلو party poppercamera with flash.",
+    "detected_lang": "ar"
+  },
+  {
+    "id": 8,
+    "text": "الكونفرنس متاع STIC كان منظّم مزيان، أما الصوت في القاعة مزعج برشة 🥴🔊.",
+    "source_event": "مؤتمر STIC بجامعة المنستير",
+    "sentiment": "negative",
+    "event_type": "education",
+    "source": "darija_events",
+    "clean_text": "الكونفرنس متاع STIC كان منظم مزيان، اما الصوت في القاعه مزعج برشه woozy facespeaker high volume.",
+    "detected_lang": "ar"
+  },
+  {
+    "id": 9,
+    "text": "جمعة ثقافية في المثلث الحضري — معرض كتب صغير وفن تشكيلي من حرفيين محليين 🎨📚.",
+    "source_event": "فعالية ثقافية في المثلث الحضري بالمنستير",
+    "sentiment": "positive",
+    "event_type": "culture",
+    "source": "darija_events",
+    "clean_text": "جمعه ثقافيه في المثلث الحضري — معرض كتب صغير وفن تشكيلي من حرفيين محليين artist palettebooks.",
+    "detected_lang": "ar"
+  },
+  {
+    "id": 10,
+    "text": "اللي يمشي للكورنيش على الغروب: البحر هادي اليوم وزين للتصاور 📸🌅.",
+    "source_event": "كورنيش المنستير",
+    "sentiment": "positive",
+    "event_type": "community",
+    "source": "darija_events",
+    "clean_text": "اللي يمشي للكورنيش علي الغروب: البحر هادي اليوم وزين للتصاور camera with flashsunrise.",
+    "detected_lang": "ar"
+  },
+  {
+    "id": 11,
+    "text": "العرض المسرحي اليوم كان ضعيف شوي، الإضاءة والموسيقى ما ساعدوش 😕🎭.",
+    "source_event": "عرض مسرحي في دار الثقافة بالمنستير",
+    "sentiment": "negative",
+    "event_type": "culture",
+    "source": "darija_events",
+    "clean_text": "العرض المسرحي اليوم كان ضعيف شوي، الاضاءه والموسيقي ما ساعدوش confused faceperforming arts.",
+    "detected_lang": "ar"
+  },
+  {
+    "id": 12,
+    "text": "ناس المنطقة تحكّي على طرقات عمّالات صيانة قدّام المدينة — خلّيو بالكم في المرور 🚧.",
+    "source_event": "أشغال صيانة الطرق في وسط المنستير",
+    "sentiment": "neutral",
+    "event_type": "infrastructure",
+    "source": "darija_events",
+    "clean_text": "ناس المنطقه تحكي علي طرقات عمالات صيانه قدام المدينه — خليو بالكم في المرور construction.",
+    "detected_lang": "ar"
+  },
+  {
+    "id": 13,
+    "text": "أخبار سريعة: غدوة ندوة على الطاقات المتجددة في مركز العلوم — يحكيو على مشاريع جامعة المنستير 💡📚.",
+    "source_event": "ندوة حول الطاقات المتجددة بجامعة المنستير",
+    "sentiment": "informative",
+    "event_type": "education",
+    "source": "darija_events",
+    "clean_text": "اخبار سريعه: غدوه ندوه علي الطاقات المتجدده في مركز العلوم — يحكيو علي مشاريع جامعه المنستير light bulbbooks.",
+    "detected_lang": "ar"
+  },
+  {
+    "id": 14,
+    "text": "صورة من مباراة الأمس في مصطفى بن جنات — الجو كان نار والمستوى كان قوي 🔥⚽.",
+    "source_event": "مباراة US Monastir في ملعب مصطفى بن جنات",
+    "sentiment": "positive",
+    "event_type": "sports",
+    "source": "darija_events",
+    "clean_text": "صوره من مباراه الامس في مصطفي بن جنات — الجو كان نار والمستوي كان قوي firesoccer ball.",
+    "detected_lang": "ar"
+  },
+  {
+    "id": 15,
+    "text": "في كلية الصيدلة نقص التنظيم شوي، الطلبة تذمّوا من التأخير في الندوة 😬⏰.",
+    "source_event": "أنشطة علمية بكلية الصيدلة بالمنستير",
+    "sentiment": "negative",
+    "event_type": "education",
+    "source": "darija_events",
+    "clean_text": "في كليه الصيدله نقص التنظيم شوي، الطلبه تذموا من التاخير في الندوه grimacing facealarm clock.",
+    "detected_lang": "ar"
+  },
+  {
+    "id": 16,
+    "text": "أيام المهرجان: تلقى مهرجانات موسيقى، عروض فولكلور وسينما تحت النجوم — ما تفوّتش السهرة 🎶🌙.",
+    "source_event": "مهرجان المنستير الدولي",
+    "sentiment": "positive",
+    "event_type": "culture",
+    "source": "darija_events",
+    "clean_text": "ايام المهرجان: تلقي مهرجانات موسيقي، عروض فولكلور وسينما تحت النجوم — ما تفوتش السهره musical notescrescent moon.",
+    "detected_lang": "ar"
+  },
+  {
+    "id": 17,
+    "text": "الحفلة في المركب الثقافي كانت طويلة برشة والفرقة ما غنّتش المودرن 😐🎤.",
+    "source_event": "حفل في المركب الثقافي محمد الجموسي",
+    "sentiment": "negative",
+    "event_type": "culture",
+    "source": "darija_events",
+    "clean_text": "الحفله في المركب الثقافي كانت طويله برشه والفرقه ما غنتش المودرن neutral facemicrophone.",
+    "detected_lang": "ar"
+  },
+  {
+    "id": 18,
+    "text": "مبروك للّاعبين اللي شاركوا في أوّل تورنوا باديل رسمي بالمنستير — حركة رياضية تشجّع الشباب 💪🏆.",
+    "source_event": "أول بطولة باديل رسمية بالمنستير",
+    "sentiment": "positive",
+    "event_type": "sports",
+    "source": "darija_events",
+    "clean_text": "مبروك للاعبين اللي شاركوا في اول تورنوا باديل رسمي بالمنستير — حركه رياضيه تشجع الشباب flexed bicepstrophy.",
+    "detected_lang": "ar"
+  },
+  {
+    "id": 19,
+    "text": "دعوة للبحث: colloque في موكنين حول تاريخ المدينة — محاضرات وورشات من 30 أكتوبر لِـ1 نوفمبر 📅📖.",
+    "source_event": "ملتقى علمي في موكنين حول تاريخ المدينة",
+    "sentiment": "informative",
+    "event_type": "education",
+    "source": "darija_events",
+    "clean_text": "دعوه للبحث: colloque في موكنين حول تاريخ المدينه — محاضرات وورشات من 30 اكتوبر ل1 نوفمبر calendaropen book.",
+    "detected_lang": "ar"
+  },
+  {
+    "id": 20,
+    "text": "آخر تحديث: التظاهرات العلمية والثقافية في الجامعة والدّور البلدي متواصلة — المنستير حركتها زايدة هذا الموسم 🌟🏛️.",
+    "source_event": "أنشطة ثقافية وعلمية بجامعة المنستير",
+    "sentiment": "positive",
+    "event_type": "community",
+    "source": "darija_events",
+    "clean_text": "اخر تحديث: التظاهرات العلميه والثقافيه في الجامعه والدور البلدي متواصله — المنستير حركتها زايده هذا الموسم glowing starclassical building.",
+    "detected_lang": "ar"
+  },
+  {
+    "source": "instagram_arabe",
+    "lang": "ar",
+    "text": "موعدنا يتجدد مع جمهور المنستير الحبيب! ❤️ كلنا نغني – الموسم الثاني",
+    "event_type": "culture",
+    "sentiment": "positive",
+    "clean_text": "موعدنا يتجدد مع جمهور المنستير الحبيب! red heart كلنا نغني – الموسم الثاني",
+    "detected_lang": "ar"
+  },
+  {
+    "source": "instagram_arabe",
+    "lang": "ar",
+    "text": "تخفيض استثنائي مع #zakaritravel رفاهية واستجمام 🏨فندق مونارك كلوب المنستير🌟🌟🌟🌟 موقع رائع، خدمات راقية، وأجواء مريحة تطل على البحر مباشرة 🌅",
+    "event_type": "tourism",
+    "sentiment": "positive",
+    "clean_text": "تخفيض استثناءي مع #zakaritravel رفاهيه واستجمام hotelفندق مونارك كلوب المنستيرglowing starglowing starglowing starglowing star موقع راءع، خدمات راقيه، واجواء مريحه تطل علي البحر مباشره sunrise",
+    "detected_lang": "ar"
+  },
+  {
+    "source": "instagram_arabe",
+    "lang": "ar",
+    "text": "مسابقة فيديو في المنستير! أبرزوا جمال المدينة وتراثها بعدسة إبداعكم 📽️🇹🇳 شاركوا بفيلم قصير واربحوا جوائز قيّمة! 📅 التاريخ: 2 و3 ماي 2025",
+    "event_type": "culture",
+    "sentiment": "positive",
+    "clean_text": "مسابقه فيديو في المنستير! ابرزوا جمال المدينه وتراثها بعدسه ابداعكم film projectorTunisia شاركوا بفيلم قصير واربحوا جواءز قيمه! calendar التاريخ: 2 و3 ماي 2025",
+    "detected_lang": "ar"
+  },
+  {
+    "source": "instagram_arabe",
+    "lang": "ar",
+    "text": "فوج بني خيار للكشافة التونسية - جهة نابل بحذانا في المستير ❤️🛴",
+    "event_type": "social",
+    "sentiment": "positive",
+    "clean_text": "فوج بني خيار للكشافه التونسيه - جهه نابل بحذانا في المستير red heartkick scooter",
+    "detected_lang": "ar"
+  },
+  {
+    "source": "instagram_arabe",
+    "lang": "ar",
+    "text": "من أكثر البلايص البارزة في المستير هي جامعها لكبير موجود في قلب البلاد وين التربة و رباطها العظيم و الناس تجيه و تركع فيه من كل مكان و في كل زمان",
+    "event_type": "landmark",
+    "sentiment": "positive",
+    "clean_text": "من اكثر البلايص البارزه في المستير هي جامعها لكبير موجود في قلب البلاد وين التربه و رباطها العظيم و الناس تجيه و تركع فيه من كل مكان و في كل زمان",
+    "detected_lang": "ar"
+  },
+  {
+    "source": "instagram_arabe",
+    "lang": "ar",
+    "text": "حلاها التحواسة في المستير ❤️ محلاهم أجواء العيد إلي يفكروني في صغري 💕 كبار تحوس و صغار تجري و تلعب و بنات تحرقص و ناس تقرا الفاتحة على أقاربها هـذا الكل في ساحة التربة 😍 ربي يرحم يا برقيبة ❤️",
+    "event_type": "social",
+    "sentiment": "positive",
+    "clean_text": "حلاها التحواسه في المستير red heart محلاهم اجواء العيد الي يفكروني في صغري two hearts كبار تحوس و صغار تجري و تلعب و بنات تحرقص و ناس تقرا الفاتحه علي اقاربها هذا الكل في ساحه التربه :smiling face with heart-eyes: ربي يرحم يا برقيبه red heart",
+    "detected_lang": "ar"
+  },
+  {
+    "source": "instagram_arabe",
+    "lang": "ar",
+    "text": "توة متعدي لمحطة اللواجات في المستير و الكالعادة نلوج على تفاصيل عاداتنا و تقاليدنا نشم عليها ريحة تونس البنينة⁦🇹🇳⁩ ... وهو متاسف انو مفماش شكون تعلم منو الصنعة",
+    "event_type": "culture",
+    "sentiment": "neutral",
+    "clean_text": "توه متعدي لمحطه اللواجات في المستير و الكالعاده نلوج علي تفاصيل عاداتنا و تقاليدنا نشم عليها ريحه تونس البنينه⁦Tunisia⁩ ... وهو متاسف انو مفماش شكون تعلم منو الصنعه",
+    "detected_lang": "ar"
+  },
+  {
+    "source": "instagram_arabe",
+    "lang": "ar",
+    "text": "مافماشئ ناجح في المستير من المسؤول في تعزيز أسطول النقل ... معاناة المسافرين في المنستير بسبب غياب رحلات مباشرة من المنستير",
+    "event_type": "transport",
+    "sentiment": "negative",
+    "clean_text": "مافماشء ناجح في المستير من المسءول في تعزيز اسطول النقل ... معاناه المسافرين في المنستير بسبب غياب رحلات مباشره من المنستير",
+    "detected_lang": "ar"
+  },
+  {
+    "source": "news_headlines",
+    "lang": "fr",
+    "text": "Conférence internationale sur la chimie des solutions à Monastir",
+    "date": "2025-11-01",
+    "event_type": "science",
+    "sentiment": "positive",
+    "clean_text": "Conférence internationale sur la chimie des solutions à المنستير",
+    "detected_lang": "fr"
+  },
+  {
+    "source": "news_headlines",
+    "lang": "fr",
+    "text": "Bébés tortues en route vers la mer, Campagne de nettoyage à Monastir",
+    "date": "2025-11-02",
+    "event_type": "environment",
+    "sentiment": "positive",
+    "clean_text": "Bébés tortues en route vers la mer, Campagne de nettoyage à المنستير",
+    "detected_lang": "fr"
+  },
+  {
+    "source": "news_headlines",
+    "lang": "fr",
+    "text": "«Protéger notre mer, c’est protéger la vie»",
+    "date": "2025-11-02",
+    "event_type": "environment",
+    "sentiment": "positive",
+    "clean_text": "«Protéger notre mer, c’est protéger la vie»",
+    "detected_lang": "da"
+  },
+  {
+    "source": "news_headlines",
+    "lang": "fr",
+    "text": "Vaste campagne de propreté à Monastir (Photos)",
+    "date": "2025-11-03",
+    "event_type": "environment",
+    "sentiment": "positive",
+    "clean_text": "Vaste campagne de propreté à المنستير (Photos)",
+    "detected_lang": "fr"
+  },
+  {
+    "source": "news_headlines",
+    "lang": "fr",
+    "text": "Kaïs Saïed s’enquiert de la situation environnementale à Monastir",
+    "date": "2025-11-03",
+    "event_type": "politics",
+    "sentiment": "neutral",
+    "clean_text": "Kaïs Saïed s’enquiert de la situation environnementale à المنستير",
+    "detected_lang": "fr"
+  },
+  {
+    "source": "news_headlines",
+    "lang": "fr",
+    "text": "Campagne antirabique : Vaccination gratuite des chats et des chiens à Monastir",
+    "date": "2025-11-04",
+    "event_type": "health",
+    "sentiment": "positive",
+    "clean_text": "Campagne antirabique : Vaccination gratuite des chats et des chiens à المنستير",
+    "detected_lang": "fr"
+  },
+  {
+    "source": "news_headlines",
+    "lang": "fr",
+    "text": "Notre Grand Bleu : Sysy, la tortue caouanne sauvée à Monastir",
+    "date": "2025-10-30",
+    "event_type": "environment",
+    "sentiment": "positive",
+    "clean_text": "Notre Grand Bleu : Sysy, la tortue caouanne sauvée à المنستير",
+    "detected_lang": "fr"
+  },
+  {
+    "source": "news_headlines",
+    "lang": "fr",
+    "text": "La «marée rouge» à Monastir inquiète les autorités tunisiennes",
+    "date": "2025-10-29",
+    "event_type": "environment",
+    "sentiment": "negative",
+    "clean_text": "La «marée rouge» à المنستير inquiète les autorités tunisiennes",
+    "detected_lang": "fr"
+  },
+  {
+    "source": "news_headlines",
+    "lang": "fr",
+    "text": "Coupures d’électricité, ce dimanche, à Monastir : Les zones concernées (Steg)",
+    "date": "2025-11-03",
+    "event_type": "infrastructure",
+    "sentiment": "negative",
+    "clean_text": "Coupures d’électricité, ce dimanche, à المنستير : Les zones concernées (الشركه التونسيه للكهرباء والغاز)",
+    "detected_lang": "fr"
+  },
+  {
+    "source": "filtered_monastir_twitterFINAL",
+    "lang": "fr",
+    "text": "@raouf_rezg15426 Monastir dans le parc Je rentre le 10 novembre et je n'ai pas envie de rentrer, comme à chaque fois.",
+    "sentiment": "negative",
+    "event_type": "personal",
+    "clean_text": "@raouf rezg15426 المنستير dans le parc Je rentre le 10 novembre et je n'ai pas envie de rentrer, comme à chaque fois.",
+    "detected_lang": "da"
+  },
+  {
+    "source": "filtered_monastir_twitterFINAL",
+    "lang": "fr",
+    "text": "@oscuroo_ Ohhhhh je vois ! Moi du côté de sousse / monastir jsp si tu connais",
+    "sentiment": "neutral",
+    "event_type": "social",
+    "clean_text": "@oscuroo Ohhhhh je vois ! Moi du côté de sousse / المنستير jsp si tu connais",
+    "detected_lang": "fr"
+  },
+  {
+    "source": "filtered_monastir_twitterFINAL",
+    "lang": "fr",
+    "text": "@ErtaOption @legoatmessi_ @DzayerOffensive Il est né et enterré à Monastir pas à Tripoli on vous le laisse hein",
+    "sentiment": "neutral",
+    "event_type": "history",
+    "clean_text": "@ErtaOption @legoatmessi @DzayerOffensive Il est né et enterré à المنستير pas à Tripoli on vous le laisse hein",
+    "detected_lang": "fr"
+  },
+  {
+    "source": "filtered_monastir_twitterFINAL",
+    "lang": "ar",
+    "text": "@Moha_mmed_1907 الشبيبة عاملين مشروع كويس جدا بيعتمدوا علي المواهب وكسبوا المنستير في تونس تلاتة صفر علي الواقف والجيش الملكي فريق كويس اضعف فريق يانج بس هيبقي غلس شوية علي ارضه",
+    "sentiment": "positive",
+    "event_type": "sports",
+    "clean_text": "@Moha mmed 1907 الشبيبه عاملين مشروع كويس جدا بيعتمدوا علي المواهب وكسبوا المنستير في تونس تلاته صفر علي الواقف والجيش الملكي فريق كويس اضعف فريق يانج بس هيبقي غلس شويه علي ارضه",
+    "detected_lang": "ar"
+  },
+  {
+    "source": "filtered_monastir_twitterFINAL",
+    "lang": "ar",
+    "text": "@samiestt اعتقد صعب التوقع حاليا لكن شبيبة القيائل قوي جدا فازو على المنستير 5-1 وهو رقم صعب تاريخيا في افريقيا وحاليا في الجزائر",
+    "sentiment": "negative",
+    "event_type": "sports",
+    "clean_text": "@samiestt اعتقد صعب التوقع حاليا لكن شبيبه القياءل قوي جدا فازو علي المنستير 5-1 وهو رقم صعب تاريخيا في افريقيا وحاليا في الجزاءر",
+    "detected_lang": "ar"
+  },
+  {
+    "source": "filtered_monastir_twitterFINAL",
+    "lang": "fr",
+    "text": "@Skobii942 Chermiti si il continue comme ca il va finire en usmo Monastir pour lancer sa carriere 😂",
+    "sentiment": "positive",
+    "event_type": "sports",
+    "clean_text": "@Skobii942 Chermiti si il continue comme ca il va finire en usmo المنستير pour lancer sa carriere face with tears of joy",
+    "detected_lang": "da"
+  },
+  {
+    "source": "filtered_monastir_twitterFINAL",
+    "lang": "ar",
+    "text": "@HMeghribi قيس سعيد العبد المطيع لتبون الذي سيجعل من وطننا الجميل و مناطقنا الخلابة مثل سيدي بوسعيد و المرسى و حمامات و جربة و القيروان و واحة الجريد و باردو و قرطاج و باب بحر و البلاد العربي و المنستير و عين دراهم مناطق الجزائرية يعرف بالموضوع",
+    "sentiment": "negative",
+    "event_type": "politics",
+    "clean_text": "@HMeghribi قيس سعيد العبد المطيع لتبون الذي سيجعل من وطننا الجميل و مناطقنا الخلابه مثل سيدي بوسعيد و المرسي و حمامات و جربه و القيروان و واحه الجريد و باردو و قرطاج و باب بحر و البلاد العربي و المنستير و عين دراهم مناطق الجزاءريه يعرف بالموضوع",
+    "detected_lang": "ar"
+  },
+  {
+    "source": "filtered_monastir_twitterFINAL",
+    "lang": "ar",
+    "text": "هذا أقدم مسجد في أوروبا( مسجد المنستير لا ريال)،بناه موسى بن نصير -رحمه الله- في قرية المونستير. ما يزال أهل القرية المسلمون يعقدون القران داخله،كما يحتضن العديد من الأنشطة الثقافية الدينية وغيرها المسجد يقع في أعلى تلة تطل على القرية .",
+    "sentiment": "positive",
+    "event_type": "landmark",
+    "clean_text": "هذا اقدم مسجد في اوروبا( مسجد المنستير لا ريال)،بناه موسي بن نصير -رحمه الله- في قريه المونستير. ما يزال اهل القريه المسلمون يعقدون القران داخله،كما يحتضن العديد من الانشطه الثقافيه الدينيه وغيرها المسجد يقع في اعلي تله تطل علي القريه .",
+    "detected_lang": "ar"
+  },
+  {
+    "id": 1,
+    "text": "3aslema les gens 🙌 sbah el khir men Monastir 🌞 el b7ar elyoum hbel 😍💙",
+    "sentiment": "positive",
+    "event_type": "tourisme",
+    "source": "facebookecrit",
+    "clean_text": "3aslema les gens raising hands sbah ال khir men المنستير sun with face ال بحر اليوم هابيل :smiling face with heart-eyes:blue heart",
+    "detected_lang": "da"
+  },
+  {
+    "id": 2,
+    "text": "thama trafik 9wi fel centre 😩 makch tnajm tet3eda b karhba!",
+    "sentiment": "negative",
+    "event_type": "trafic",
+    "source": "facebookecrit",
+    "clean_text": "ثمه زحمه 9wi fel مركز weary face ماكش تقدر تتعدا b karhba!",
+    "detected_lang": "da"
+  },
+  {
+    "id": 3,
+    "text": "barcha ness fi corniche Monastir 🎉 jaw raw3a w musique 3alya 🔥",
+    "sentiment": "positive",
+    "event_type": "tourisme",
+    "source": "facebookecrit",
+    "clean_text": "برشا ناس fi corniche المنستير party popper jaw روعه w musique 3alya fire",
+    "detected_lang": "da"
+  },
+  {
+    "id": 4,
+    "text": "9ass l courant fi Khniss w hatta notification ma fama 😠 ye5y STEG winhom?",
+    "sentiment": "negative",
+    "event_type": "panne_électrique",
+    "source": "facebookecrit",
+    "clean_text": "9ass l تيار fi خنيس w hatta notification ma fama angry face ye5y الشركه التونسيه للكهرباء والغاز winhom?",
+    "detected_lang": "da"
+  },
+  {
+    "id": 5,
+    "text": "USMonastir 3malet match heyel 🔥🏀 respect les gars!",
+    "sentiment": "positive",
+    "event_type": "sport",
+    "source": "facebookecrit",
+    "clean_text": "نادي المنستير 3malet مباراه heyel firebasketball respect les gars!",
+    "detected_lang": "da"
+  },
+  {
+    "id": 6,
+    "text": "el plage m3abba zbel 🤢 wallahi 3ib 3la baladiya ma tnadhefch",
+    "sentiment": "negative",
+    "event_type": "environnement",
+    "source": "facebookecrit",
+    "clean_text": "ال شاطء m3abba zbel nauseated face والله 3ib 3la baladiya ma tnadhefch",
+    "detected_lang": "da"
+  },
+  {
+    "id": 7,
+    "text": "9a3din nochrbou 9ahwa ☕ fel port w na7kiw 3la jaw Monastir 😌",
+    "sentiment": "neutral",
+    "event_type": "vie_locale",
+    "source": "facebookecrit",
+    "clean_text": "9a3din nochrbou قهوه hot beverage fel port w na7kiw 3la jaw المنستير relieved face",
+    "detected_lang": "da"
+  },
+  {
+    "id": 8,
+    "text": "el car wa5ret barcha 😤 w nas mtaycha fel mahata ma fama 7ata tanthim",
+    "sentiment": "negative",
+    "event_type": "transport",
+    "source": "facebookecrit",
+    "clean_text": "ال car wa5ret برشا face with steam from nose w nas mtaycha fel محطه ma fama 7ata tanthim",
+    "detected_lang": "da"
+  },
+  {
+    "id": 9,
+    "text": "festival el Medina bda lyom 💃 jaw 3alekher w el musique top 👏",
+    "sentiment": "positive",
+    "event_type": "culture",
+    "source": "facebookecrit",
+    "clean_text": "festival ال Medina bda lyom woman dancing jaw 3alekher w ال musique top clapping hands",
+    "detected_lang": "da"
+  },
+  {
+    "id": 10,
+    "text": "el connexion ta7et 😩 7ala 7lila",
+    "sentiment": "negative",
+    "event_type": "panne_internet",
+    "source": "facebookecrit",
+    "clean_text": "ال اتصال ta7et weary face 7ala 7lila",
+    "detected_lang": "da"
+  }
+]

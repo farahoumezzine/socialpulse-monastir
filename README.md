@@ -16,3 +16,8 @@ Build a near real-time social media monitoring system that tracks public sentime
 
 API credentials are managed via environment variables and are **not included** in this repository.
 To run scripts that require the X API, create a `.env` file in the project root:
+
+
+
+Data AUgmentation in data
+add triger emoji with sentim in preprocc
