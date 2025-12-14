@@ -11,6 +11,8 @@ Build a near real-time social media monitoring system that tracks public sentime
 - `/src` : code source
 - `/notebooks` : expérimentations
 - `/docs` : rapport, éthique
+result_after_validation.json	Dataset normalisé (sans augmentation)
+result_augmented.json	Dataset avec data augmentation
 
 ## ⚠️ Security Note
 
