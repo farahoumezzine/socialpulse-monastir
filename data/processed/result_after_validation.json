@@ -7,7 +7,7 @@
     "event_type": "culture",
     "source": "darija_events",
     "original_text": "اليوم الرباط مَعَبّي — الافتتاح الكبير متاع مهرجان المنستير والدنيا حلوة 🎶😍.",
-    "clean_text": "lyoum الرباط معبي الافتتاح الكبير متاع مهرجان mestir والدنيا حلوه",
+    "clean_text": "lyoum ribat maabi eftiteh kbir mtaa mahrejen mestir waldnya hlwh",
     "original_lang": "ar",
     "normalized_lang": "darija",
     "emoji_sentiment": {
@@ -39,7 +39,7 @@
     "event_type": "culture",
     "source": "darija_events",
     "original_text": "صراحة التنظيم في مهرجان المنستير موش قدّ التوقعات، برشا تأخير وناس تزاحمت 😕😓.",
-    "clean_text": "صراحه التنظيم في مهرجان mestir موش قد التوقعات، برشا تاخير وناس تزاحمت",
+    "clean_text": "srahh altndhym fi mahrejen mestir mouch ked altwkaat، barcha takhyr wnas tzahmt",
     "original_lang": "ar",
     "normalized_lang": "darija",
     "emoji_sentiment": {
@@ -71,7 +71,7 @@
     "event_type": "culture",
     "source": "darija_events",
     "original_text": "تذكير: غدوة عند Palace des Sciences عرض فيلم 'Parasol' على الساعَة 18:30 — اللي حبّ يحجز يسرع 📢.",
-    "clean_text": "تذكير: غدوه عند palace des sciences عرض فيلم parasoll' علي الساعه 1gha00 اللي حب يحجز يسرع",
+    "clean_text": "tadhkir: ghdwh and palace des sciences ardh film parasoll' aly alsaah 18:30 eli hb yhjz ysra",
     "original_lang": "ar",
     "normalized_lang": "darija",
     "emoji_sentiment": {
@@ -97,7 +97,7 @@
     "event_type": "sports",
     "source": "darija_events",
     "original_text": "اليوم الملعب عامر: مباراة يو.إس. المنستير كانت قوية والناس كانت تشجّع بكري ⚽🔥.",
-    "clean_text": "lyoum الملعب عامر: مباراه يواسس. mestir كانت قويه والناس كانت تشجع بكري",
+    "clean_text": "lyoum stade amer: mbarah ywass. mestir kenet kwyh walnas kenet tchajaa bekri",
     "original_lang": "ar",
     "normalized_lang": "darija",
     "emoji_sentiment": {
@@ -129,7 +129,7 @@
     "event_type": "sports",
     "source": "darija_events",
     "original_text": "الملاعب الجديدة مازال فيها مشاكل في الإضاءة، البارح المقابلة تعطلت 😩💡.",
-    "clean_text": "الملاعب الجديده مازال فيها مشاكل في الاضاءه، البارح المقابله تعطلت",
+    "clean_text": "almlaab aljdydh mazal fiha machakel fi aladhah، lbereh almkablh taatlet",
     "original_lang": "ar",
     "normalized_lang": "darija",
     "emoji_sentiment": {
@@ -161,7 +161,7 @@
     "event_type": "community",
     "source": "darija_events",
     "original_text": "لاصحاب الطبخ: السوق المركزي فيه خضر طازجة وطماطم بنينة اليوم — حصلت شوية عروض 👩‍🍳🥬.",
-    "clean_text": "لاصحاب الطبخ: souk المركزي فيه خضر طازجه وطماطم بنينه lyoum حصلت شويه عروض",
+    "clean_text": "lashab tabkh: souk markazi fih khodhra tazjh wtmatm bnynh lyoum hslt chwyh oroudh",
     "original_lang": "ar",
     "normalized_lang": "darija",
     "emoji_sentiment": {
@@ -199,7 +199,7 @@
     "event_type": "culture",
     "source": "darija_events",
     "original_text": "البهجة في الشارع قُدام الرباط، التصاور والموسيقى ما تفلتش — الجو سياحي وحلو 🎉📸.",
-    "clean_text": "البهجه في الشارع قدام الرباط، التصاور والموسيقي ما تفلتش الجو سياحي وحلو",
+    "clean_text": "albhjh fi cheraa koddem alrbat، tsawer walmwsyky ma tfltch jaw siyehi whlw",
     "original_lang": "ar",
     "normalized_lang": "darija",
     "emoji_sentiment": {
@@ -231,7 +231,7 @@
     "event_type": "education",
     "source": "darija_events",
     "original_text": "الكونفرنس متاع STIC كان منظّم مزيان، أما الصوت في القاعة مزعج برشة 🥴🔊.",
-    "clean_text": "الكونفرنس متاع stic كان منظم مزيان، اما الصوت في القاعه مزعج برشه",
+    "clean_text": "alkwnfrns mtaa stic ken mnadhem mzyan، ama sot fi alkaah ikalek brchh",
     "original_lang": "ar",
     "normalized_lang": "darija",
     "emoji_sentiment": {
@@ -263,7 +263,7 @@
     "event_type": "culture",
     "source": "darija_events",
     "original_text": "جمعة ثقافية في المثلث الحضري — معرض كتب صغير وفن تشكيلي من حرفيين محليين 🎨📚.",
-    "clean_text": "جمعه ثقافيه في المثلث الحضري معرض كتب صغير وفن تشكيلي chkoun حرفيين محليين",
+    "clean_text": "jmah thkafyh fi almthlth alhdhry maaredh kotob sghir wfn tchkyly chkoun hrfyyn mhlyyn",
     "original_lang": "ar",
     "normalized_lang": "darija",
     "emoji_sentiment": {
@@ -295,7 +295,7 @@
     "event_type": "community",
     "source": "darija_events",
     "original_text": "اللي يمشي للكورنيش على الغروب: البحر هادي اليوم وزين للتصاور 📸🌅.",
-    "clean_text": "اللي يمشي للكورنيش علي الغروب: bhar هادي lyoum وزين للتصاور",
+    "clean_text": "eli ymchy lel_corniche aly ghroub: bhar hedi lyoum wzyn lltsawr",
     "original_lang": "ar",
     "normalized_lang": "darija",
     "emoji_sentiment": {
@@ -327,7 +327,7 @@
     "event_type": "culture",
     "source": "darija_events",
     "original_text": "العرض المسرحي اليوم كان ضعيف شوي، الإضاءة والموسيقى ما ساعدوش 😕🎭.",
-    "clean_text": "العرض المسرحي lyoum كان ضعيف شوي، الاضاءه والموسيقي ما ساعدوش",
+    "clean_text": "alardh masrahi lyoum ken dhaif chwy، aladhah walmwsyky ma saadwch",
     "original_lang": "ar",
     "normalized_lang": "darija",
     "emoji_sentiment": {
@@ -359,7 +359,7 @@
     "event_type": "infrastructure",
     "source": "darija_events",
     "original_text": "ناس المنطقة تحكّي على طرقات عمّالات صيانة قدّام المدينة — خلّيو بالكم في المرور 🚧.",
-    "clean_text": "ناس المنطقه تحكي علي طرقات عمالات صيانه قدام المدينه خليو بالكم في المرور",
+    "clean_text": "ness almntkh thky aly torkaat amalat syanh koddem almdynh khlyw balkm fi morour",
     "original_lang": "ar",
     "normalized_lang": "darija",
     "emoji_sentiment": {
@@ -385,7 +385,7 @@
     "event_type": "education",
     "source": "darija_events",
     "original_text": "أخبار سريعة: غدوة ندوة على الطاقات المتجددة في مركز العلوم — يحكيو على مشاريع جامعة المنستير 💡📚.",
-    "clean_text": "اخبار سريعه: غدوه ندوه علي الطاقات المتجدده في مركز العلوم يحكيو علي مشاريع جامعه mestir",
+    "clean_text": "akhbar sryah: ghdwh ndwh aly altakat almtjddh fi mrkz oloum yhkyw aly macharia jamah mestir",
     "original_lang": "ar",
     "normalized_lang": "darija",
     "emoji_sentiment": {
@@ -417,7 +417,7 @@
     "event_type": "sports",
     "source": "darija_events",
     "original_text": "صورة من مباراة الأمس في مصطفى بن جنات — الجو كان نار والمستوى كان قوي 🔥⚽.",
-    "clean_text": "صوره chkoun مباراه الامس في مصطفي بن جنات الجو كان nar والمستوي كان قوي",
+    "clean_text": "swrh chkoun mbarah alams fi mstfy bn jnat jaw ken nar walmstwy ken kwi",
     "original_lang": "ar",
     "normalized_lang": "darija",
     "emoji_sentiment": {
@@ -449,7 +449,7 @@
     "event_type": "education",
     "source": "darija_events",
     "original_text": "في كلية الصيدلة نقص التنظيم شوي، الطلبة تذمّوا من التأخير في الندوة 😬⏰.",
-    "clean_text": "في كليه الصيدله نقص التنظيم شوي، الطلبه تذموا chkoun التاخير في الندوه",
+    "clean_text": "fi klyh alsydlh noks altndhym chwy، altlbh tdhmwa chkoun altakhyr fi alndwh",
     "original_lang": "ar",
     "normalized_lang": "darija",
     "emoji_sentiment": {
@@ -481,7 +481,7 @@
     "event_type": "culture",
     "source": "darija_events",
     "original_text": "أيام المهرجان: تلقى مهرجانات موسيقى، عروض فولكلور وسينما تحت النجوم — ما تفوّتش السهرة 🎶🌙.",
-    "clean_text": "ايام المهرجان: تلقي مهرجانات موسيقي، عروض فولكلور وسينما تحت النجوم ما تفوتش السهره",
+    "clean_text": "ayam almhrjan: tlky mhrjanat mwsyky، oroudh fwlklwr wsynma taht njoum ma tfwtch alshrh",
     "original_lang": "ar",
     "normalized_lang": "darija",
     "emoji_sentiment": {
@@ -513,7 +513,7 @@
     "event_type": "culture",
     "source": "darija_events",
     "original_text": "الحفلة في المركب الثقافي كانت طويلة برشة والفرقة ما غنّتش المودرن 😐🎤.",
-    "clean_text": "الحفله في المركب الثقافي كانت طويله برشه والفرقه ما غنتش المودرن",
+    "clean_text": "alhflh fi morakeb althkafy kenet twylh brchh walfrkh ma ghntch almwdrn",
     "original_lang": "ar",
     "normalized_lang": "darija",
     "emoji_sentiment": {
@@ -545,7 +545,7 @@
     "event_type": "sports",
     "source": "darija_events",
     "original_text": "مبروك للّاعبين اللي شاركوا في أوّل تورنوا باديل رسمي بالمنستير — حركة رياضية تشجّع الشباب 💪🏆.",
-    "clean_text": "مبروك للاعبين اللي شاركوا في اول تورنوا باديل رسمي بالمنستير حركه رياضيه تشجع الشباب",
+    "clean_text": "mabrouk lel_laabin eli charkwa fi awl twrnwa badyl rasmi balmnstyr hrkh ryadhyh tchajaa chabeb",
     "original_lang": "ar",
     "normalized_lang": "darija",
     "emoji_sentiment": {
@@ -577,7 +577,7 @@
     "event_type": "education",
     "source": "darija_events",
     "original_text": "دعوة للبحث: colloque في موكنين حول تاريخ المدينة — محاضرات وورشات من 30 أكتوبر لِـ1 نوفمبر 📅📖.",
-    "clean_text": "دعوه للبحث: colloque في موكنين حول تاريخ المدينه محاضرات وورشات chkoun a0 اكتوبر لـ1 نوفمبر",
+    "clean_text": "dawh llbhth: colloque fi mwknyn hawel tarikh almdynh mhadhrat wwrchat chkoun a0 aktwbr lـ1 nwfmbr",
     "original_lang": "ar",
     "normalized_lang": "darija",
     "emoji_sentiment": {
@@ -609,7 +609,7 @@
     "event_type": "community",
     "source": "darija_events",
     "original_text": "آخر تحديث: التظاهرات العلمية والثقافية في الجامعة والدّور البلدي متواصلة — المنستير حركتها زايدة هذا الموسم 🌟🏛️.",
-    "clean_text": "اخر تحديث: التظاهرات العلميه والثقافيه في الجامعه والدور البلدي متواصله mestir حركتها زايده هذا الموسم",
+    "clean_text": "akhr thdyth: altdhahrat alalmyh walthkafyh fi aljamah waldwr albldy mtwaslh mestir hrktha zaydh hadha mawsem",
     "original_lang": "ar",
     "normalized_lang": "darija",
     "emoji_sentiment": {
@@ -640,7 +640,7 @@
     "event_type": "culture",
     "sentiment": "positive",
     "original_text": "موعدنا يتجدد مع جمهور المنستير الحبيب! ❤️ كلنا نغني – الموسم الثاني",
-    "clean_text": "موعدنا يتجدد مع جمهور mestir الحبيب! كلنا نغني الموسم الثاني",
+    "clean_text": "mawidna ytjdd maa jomhour mestir hbib! klna nghanni mawsem althany",
     "original_lang": "ar",
     "normalized_lang": "darija",
     "emoji_sentiment": {
@@ -665,7 +665,7 @@
     "event_type": "tourism",
     "sentiment": "positive",
     "original_text": "تخفيض استثنائي مع #zakaritravel رفاهية واستجمام 🏨فندق مونارك كلوب المنستير🌟🌟🌟🌟 موقع رائع، خدمات راقية، وأجواء مريحة تطل على البحر مباشرة 🌅",
-    "clean_text": "تخفيض استثناءي مع zakaritravell رفاهيه واستجمام فندق مونارك كلوب mestir موقع راءع، خدمات راقيه، واجواء مريحه تطل علي bhar مباشره",
+    "clean_text": "takhfidh astthnay maa zakaritravell rfahyh wastjmam fondok mwnark klwb mestir mawkaa raa، khadamet rakyh، wajwa mryhh ttl aly bhar mbachrh",
     "original_lang": "ar",
     "normalized_lang": "darija",
     "emoji_sentiment": {
@@ -720,7 +720,7 @@
     "event_type": "culture",
     "sentiment": "positive",
     "original_text": "مسابقة فيديو في المنستير! أبرزوا جمال المدينة وتراثها بعدسة إبداعكم 📽️🇹🇳 شاركوا بفيلم قصير واربحوا جوائز قيّمة! 📅 التاريخ: 2 و3 ماي 2025",
-    "clean_text": "مسابقه فيديو في mestir! ابرزوا جمال المدينه وتراثها بعدسه ابداعكم شاركوا بفيلم قصير واربحوا جواءز قيمه! التاريخ: a وa ماي a0akh",
+    "clean_text": "msabkh fydyw fi mestir! abrzwa jamel almdynh wtrathha badsh abdaakm charkwa bfylm ksyr warbhwa jwaz kymh! altarykh: a wa may 2025",
     "original_lang": "ar",
     "normalized_lang": "darija",
     "emoji_sentiment": {
@@ -751,7 +751,7 @@
     "event_type": "social",
     "sentiment": "positive",
     "original_text": "فوج بني خيار للكشافة التونسية - جهة نابل بحذانا في المستير ❤️🛴",
-    "clean_text": "فوج بني خيار للكشافه التونسيه جهه نابل بحذانا في المستير",
+    "clean_text": "fawj bny khyar llkchafh altwnsyh jhh nabl bhdhana fi mestir",
     "original_lang": "ar",
     "normalized_lang": "darija",
     "emoji_sentiment": {
@@ -782,7 +782,7 @@
     "event_type": "landmark",
     "sentiment": "positive",
     "original_text": "من أكثر البلايص البارزة في المستير هي جامعها لكبير موجود في قلب البلاد وين التربة و رباطها العظيم و الناس تجيه و تركع فيه من كل مكان و في كل زمان",
-    "clean_text": "chkoun اكثر البلايص البارزه في المستير هي جامعها لكبير موجود في قلب البلاد وين التربه و رباطها العظيم و ness تجيه و تركع فيه chkoun كل مكان و في كل زمان",
+    "clean_text": "chkoun akthr alblays albarzh fi mestir hiya jamaha lkbyr mwjwd fi kalb bled win altrbh we rbatha aladhym we ness tjyh we trka fih chkoun kol mkan we fi kol zman",
     "original_lang": "ar",
     "normalized_lang": "darija",
     "emoji_sentiment": {
@@ -800,7 +800,7 @@
     "event_type": "social",
     "sentiment": "positive",
     "original_text": "حلاها التحواسة في المستير ❤️ محلاهم أجواء العيد إلي يفكروني في صغري 💕 كبار تحوس و صغار تجري و تلعب و بنات تحرقص و ناس تقرا الفاتحة على أقاربها هـذا الكل في ساحة التربة 😍 ربي يرحم يا برقيبة ❤️",
-    "clean_text": "حلاها التحواسه في المستير محلاهم اجواء العيد الي يفكروني في صغري كبار تحوس و صغار تجري و تلعب و بنات تحرقص و ناس تقرا الفاتحه علي اقاربها هـذا الكل في ساحه التربه ربي يرحم يا برقيبه",
+    "clean_text": "hlaha althwash fi mestir mhlahm ajwa eid aly yfkrwny fi sghry kbar thws we sghar tjry we tlab we bnat thrks we ness tkra alfathh aly akarbha hـdha alkl fi sahh altrbh rby yrhm ya brkybh",
     "original_lang": "ar",
     "normalized_lang": "darija",
     "emoji_sentiment": {
@@ -843,7 +843,7 @@
     "event_type": "culture",
     "sentiment": "neutral",
     "original_text": "توة متعدي لمحطة اللواجات في المستير و الكالعادة نلوج على تفاصيل عاداتنا و تقاليدنا نشم عليها ريحة تونس البنينة⁦🇹🇳⁩ ... وهو متاسف انو مفماش شكون تعلم منو الصنعة",
-    "clean_text": "توه متعدي لمحطه اللواجات في المستير و الكالعاده نلوج علي تفاصيل عاداتنا و تقاليدنا نشم عليها ريحه تونس البنينه⁦⁩ وهو متاسف انو مفماش شكون تعلم منو الصنعه",
+    "clean_text": "twh mtady lmhth allwajat fi mestir we alkalaadh nlwj aly tafasil aadatna we tkalydna nchm aliha ryhh twns albnynh⁦⁩ whw mtasf anw mfmach chkoun talm mnw alsnah",
     "original_lang": "ar",
     "normalized_lang": "darija",
     "emoji_sentiment": {
@@ -861,7 +861,7 @@
     "event_type": "transport",
     "sentiment": "negative",
     "original_text": "مافماشئ ناجح في المستير من المسؤول في تعزيز أسطول النقل ... معاناة المسافرين في المنستير بسبب غياب رحلات مباشرة من المنستير",
-    "clean_text": "مافماشء ناجح في المستير chkoun المسءول في تعزيز اسطول النقل معاناه المسافرين في mestir بسبب غياب رحلات مباشره chkoun mestir",
+    "clean_text": "mafmach najeh fi mestir chkoun almswl fi tazyz astwl nakl maanah msafrin fi mestir bsbb ghyab rahlat mbachrh chkoun mestir",
     "original_lang": "ar",
     "normalized_lang": "darija",
     "emoji_sentiment": {
@@ -1104,7 +1104,7 @@
     "sentiment": "positive",
     "event_type": "sports",
     "original_text": "@Moha_mmed_1907 الشبيبة عاملين مشروع كويس جدا بيعتمدوا علي المواهب وكسبوا المنستير في تونس تلاتة صفر علي الواقف والجيش الملكي فريق كويس اضعف فريق يانج بس هيبقي غلس شوية علي ارضه",
-    "clean_text": "moha_mmed_1k0h7 الشبيبه عاملين مشروع كويس جدا بيعتمدوا علي المواهب وكسبوا mestir في تونس تلاته صفر علي الواقف والجيش الملكي فريق كويس اضعف فريق يانج بس هيبقي غلس شويه علي ارضه",
+    "clean_text": "moha_mmed_1k0h7 alchbybh aamlyn mchrwa kwys jda byatmdwa aly almwahb wksbwa mestir fi twns tlath sfr aly alwakf waljych almlky fryk kwys adhaf fryk yanj bs hybky ghls chwyh aly ardhh",
     "original_lang": "ar",
     "normalized_lang": "darija",
     "emoji_sentiment": {
@@ -1122,7 +1122,7 @@
     "sentiment": "negative",
     "event_type": "sports",
     "original_text": "@samiestt اعتقد صعب التوقع حاليا لكن شبيبة القيائل قوي جدا فازو على المنستير 5-1 وهو رقم صعب تاريخيا في افريقيا وحاليا في الجزائر",
-    "clean_text": "samiesttt اعتقد صعب التوقع حاليا لكن شبيبه القياءل قوي جدا فازو علي mestir kh11 وهو رقم صعب تاريخيا في افريقيا وحاليا في الجزاءر",
+    "clean_text": "samiesttt aatkd sab altwka halya lkn chbybh alkyal kwi jda fazw aly mestir 5-1 whw rkm sab tarykhya fi afrykya whalya fi aljzar",
     "original_lang": "ar",
     "normalized_lang": "darija",
     "emoji_sentiment": {
@@ -1165,7 +1165,7 @@
     "sentiment": "negative",
     "event_type": "politics",
     "original_text": "@HMeghribi قيس سعيد العبد المطيع لتبون الذي سيجعل من وطننا الجميل و مناطقنا الخلابة مثل سيدي بوسعيد و المرسى و حمامات و جربة و القيروان و واحة الجريد و باردو و قرطاج و باب بحر و البلاد العربي و المنستير و عين دراهم مناطق الجزائرية يعرف بالموضوع",
-    "clean_text": "hmeghribii قيس farhan العبد المطيع لتبون الذي سيجعل chkoun وطننا الجميل و مناطقنا الخلابه مثل سيدي بوسعيد و المرسي و حمامات و جربه و القيروان و واحه الجريد و باردو و قرطاج و beb بحر و البلاد العربي و mestir و عين دراهم مناطق الجزاءريه يعرف بالموضوع",
+    "clean_text": "hmeghribii kys farhan alabd almtya ltbwn eli syjal chkoun wtnna aljmyl we mnatkna alkhlabh mthl sydy bwsayd we almrsy we hmamat we jrbh we alkyrwan we wahh aljryd we bardw we krtaj we beb bhr we bled alarby we mestir we ayn drahm mnatk aljzaryh yarf balmwdhwa",
     "original_lang": "ar",
     "normalized_lang": "darija",
     "emoji_sentiment": {
@@ -1183,7 +1183,7 @@
     "sentiment": "positive",
     "event_type": "landmark",
     "original_text": "هذا أقدم مسجد في أوروبا( مسجد المنستير لا ريال)،بناه موسى بن نصير -رحمه الله- في قرية المونستير. ما يزال أهل القرية المسلمون يعقدون القران داخله،كما يحتضن العديد من الأنشطة الثقافية الدينية وغيرها المسجد يقع في أعلى تلة تطل على القرية .",
-    "clean_text": "هذا اقدم مسجد في اوروبا( مسجد mestir لا ريالبناهاه موسي بن نصير رحمهه الله- في قريه المونستير. ما يزال اهل القريه المسلمون يعقدون القران داخلهكماا يحتضن العديد chkoun الانشطه الثقافيه الدينيه وغيرها المسجد يقع في اعلي تله تطل علي القريه",
+    "clean_text": "hadha akdm msjd fi awrwba( msjd mestir la ryalbnahah mwsy bn nsyr rhmhh allh- fi kryh almwnstyr. ma yzal ahl alkryh almslmwn yakdwn alkran dakhlhkmaa yhtdhn aladyd chkoun alanchth althkafyh aldynyh wghyrha almsjd yka fi aaly tlh ttl aly alkryh",
     "original_lang": "ar",
     "normalized_lang": "darija",
     "emoji_sentiment": {

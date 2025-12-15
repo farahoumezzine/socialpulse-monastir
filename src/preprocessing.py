@@ -451,137 +451,440 @@ FRENCH_TO_DARIJA = {
     'vacances': 'otla',
 }
 
-# Dictionnaire Arabe Standard -> Darija
-ARABIC_TO_DARIJA = {
-    'جميل': 'mezyen',
-    'جميلة': 'mezyena',
-    'رائع': 'rawaa',
-    'رائعة': 'rawaa',
+# ============================================
+# TRANSLITTÉRATION ARABE → DARIJA LATIN
+# ============================================
+
+# Mapping des lettres arabes vers caractères latins (Darija tunisien)
+ARABIC_TO_LATIN = {
+    # Lettres de base
+    'ا': 'a',
+    'أ': 'a',
+    'إ': 'i',
+    'آ': 'a',
+    'ب': 'b',
+    'ت':  't',
+    'ث': 'th',
+    'ج': 'j',
+    'ح': 'h',
+    'خ': 'kh',
+    'د': 'd',
+    'ذ': 'dh',
+    'ر': 'r',
+    'ز':  'z',
+    'س': 's',
+    'ش': 'ch',
+    'ص': 's',
+    'ض':  'dh',
+    'ط':  't',
+    'ظ': 'dh',
+    'ع':  'a',
+    'غ': 'gh',
+    'ف': 'f',
+    'ق': 'k',
+    'ك': 'k',
+    'ل': 'l',
+    'م': 'm',
+    'ن': 'n',
+    'ه': 'h',
+    'ة': 'a',
+    'و': 'w',
+    'ي': 'y',
+    'ى': 'a',
+    'ء': '',
+    'ئ': 'i',
+    'ؤ': 'ou',
+    
+    # Voyelles longues / diacritiques (si présents)
+    'َ': 'a',   # Fatha
+    'ِ':  'i',   # Kasra
+    'ُ': 'ou',  # Damma
+    'ً': 'an',  # Tanwin fath
+    'ٍ': 'in',  # Tanwin kasr
+    'ٌ': 'on',  # Tanwin damm
+    'ْ': '',    # Sukun
+    'ّ': '',    # Shadda (on double la lettre précédente)
+}
+# ============================================
+# DICTIONNAIRE ARABE → DARIJA LATIN (Fusionné)
+# ============================================
+ARABIC_WORDS_TO_DARIJA_LATIN = {
+    # === SENTIMENTS ===
+    'جميل': 'mezyan',
+    'جميلة': 'mezyaa',
+    'رائع': 'heyel',
+    'رائعة': 'heyla',
     'ممتاز': 'momtez',
     'سيء': 'khayeb',
+    'خايب': 'khayeb',
     'مشكلة': 'mochkla',
-    'الناس': 'ness',
+    'مشاكل': 'machakel',
+    'حزين': 'hzin',
+    'حزينة':  'hzina',
+    'فرحان': 'farhan',
+    'فرحانة': 'farhana',
+    'سعيد': 'farhan',
+    'سعيدة': 'farhana',
+    'تعب': 'taab',
+    'تعبة':  'taaba',
+    'تعبان': 'taaban',
+    'تعبانة': 'taabana',
+    
+    # === TEMPS ===
     'اليوم': 'lyoum',
+    'غدوة': 'ghodwa',
     'غدا': 'ghodwa',
-    'أمس': 'lberh',
+    'البارح': 'lbereh',
+    'أمس': 'lbereh',
+    'توا': 'tawa',
     'الآن': 'tawa',
+    'دايما': 'dima',
+    'دائما': 'dima',
+    'برشا': 'barcha',
     'كثير': 'barcha',
+    'ياسر': 'yesser',
+    'شوية': 'chwaya',
     'قليل': 'chwaya',
-    'البحر': 'bhar',
-    'الشاطئ': 'bhar',
-    'الطريق': 'triq',
-    'المنزل': 'dar',
-    'العمل': 'khedma',
-    'الطقس': 'takes',
-    'حار': 'skhoun',
-    'بارد': 'bard',
-    'مطر': 'mtar',
-    'شمس': 'chams',
-    'صديق': 'sahbi',
-    'صديقة': 'sahebti',
-    'أطفال': 'sghar',
-    'رجل': 'rajel',
-    'امرأة': 'mra',
-    'ماذا': 'chnoua',
-    'كيف': 'kifech',
-    'لماذا': 'alech',
-    'أين': 'win',
-    'متى': 'waktech',
-    'من': 'chkoun',
-    'شيء': 'haja',
     'يوم': 'nhar',
     'ليل': 'lil',
     'صباح': 'sbeh',
     'مساء': 'achiya',
-    'سعيد': 'farhan',
-    'سعيدة': 'farhana',
-    'حزين': 'hzin',
-    'حزينة': 'hzina',
-    'تعب': 'taab',
-    'تعبة': 'taaba',
-    'أكل': 'mekla',
-    'شرب': 'chrab',
-    'نوم': 'nom',
-    'عمل': 'khedma',
-    'مباراة': 'match',
-    'كرة': 'koura',
-
-    # === CHIFFRES ===
-    'واحد': 'wahed',
-    'اثنان': 'ethnin',
-    'ثلاثة': 'thletha',
-    'أربعة': 'arbaaa',
-    'خمسة': 'khamsa',
-    'ستة': 'setta',
-    'سبعة': 'sbaaa',
-    'ثمانية': 'thmenia',
-    'تسعة': 'tsaa',
-    'عشرة': 'aachra',
-
-    # === MAISON & OBJETS ===
+    
+    # === LIEUX ===
+    'البحر': 'bhar',
+    'الشاطئ': 'chatt',
+    'المدينة': 'mdina',
+    'البلاد': 'bled',
+    'الحومة': 'houma',
+    'الدار': 'dar',
     'المنزل': 'dar',
-    'غرفة': 'bet',
-    'مطبخ': 'koujina',
-    'حمام': 'toilette',
-    'باب': 'beb',
-    'نافذة': 'chobek',
-    'سرير': 'ferach',
-    'كرسي': 'korsi',
-    'طاولة': 'tawla',
-    'مفتاح': 'meftah',
-    'نار': 'nar',
-    'ثلاجة': 'frigidaire',
-
-     # === FAMILLE ===
-    'أب': 'baba',
-    'أم': 'ommi',
-    'أخ': 'khou',
-    'أخت': 'okht',
-    'عائلة': 'aayla',
-    'ابن': 'wled',
-    'ابنة': 'bent',
-    'جد': 'jed',
-    'جدة': 'jeda',
-
-    # === TRANSPORT & LIEUX ===
-    'السيارة': 'karhba',
-    'القطار': 'metro',
-    'الطائرة': 'tayara',
-    'الحافلة': 'bus',
+    'السوق': 'souk',
+    'الجامع': 'jemaa',
     'المطار': 'matar',
+    'المحطة': 'mahata',
+    'السبيطار': 'sbitar',
     'المستشفى': 'sbitar',
     'المدرسة': 'madrsa',
     'الجامعة': 'fac',
-    'السوق': 'souk',
-    'المدينة': 'mdina',
+    'الكورنيش': 'corniche',
+    'الملعب': 'stade',
+    'الرباط': 'ribat',
+    'قصر': 'ksar',
+    'المركب': 'morakeb',
+    'الطريق': 'trik',
+    'المنستير': 'mestir',
+    'المستير': 'mestir',
+    'منستير': 'mestir',
     'المطعم': 'resto',
     'المقهى': 'kahwa',
-      # === NOURRITURE ===
+    
+    # === PERSONNES ===
+    'الناس': 'ness',
+    'ناس': 'ness',
+    'صاحبي': 'sahbi',
+    'صديق': 'sahbi',
+    'صديقة': 'sahebti',
+    'خويا': 'khouya',
+    'أخ': 'khou',
+    'أختي': 'okhti',
+    'أخت': 'okht',
+    'العايلة': 'ayla',
+    'عائلة': 'ayla',
+    'الصغار': 'sghar',
+    'أطفال': 'sghar',
+    'راجل': 'rajel',
+    'رجل': 'rajel',
+    'مرا': 'mra',
+    'امرأة': 'mra',
+    'أب': 'baba',
+    'أم': 'ommi',
+    'ابن': 'wled',
+    'ابنة':  'bent',
+    'جد': 'jed',
+    'جدة': 'jeda',
+    
+    # === TRANSPORT ===
+    'الكرهبة': 'karhba',
+    'كرهبة': 'karhba',
+    'السيارة': 'karhba',
+    'الكار': 'kar',
+    'الحافلة': 'kar',
+    'الطاكسي': 'taxi',
+    'الميترو': 'metro',
+    'القطار': 'metro',
+    'الطائرة': 'tayara',
+    'زحمة': 'zahma',
+    'الزحمة': 'zahma',
+    
+    # === MÉTÉO ===
+    'الجو': 'jaw',
+    'جو': 'jaw',
+    'الطقس': 'jaw',
+    'الشمس': 'chams',
+    'شمس': 'chams',
+    'سخون': 'skhoun',
+    'حار': 'skhoun',
+    'برد': 'bard',
+    'بارد': 'bard',
+    'مطر': 'mtar',
+    'ريح': 'rih',
+    
+    # === ACTIONS ===
+    'ناكل': 'nekel',
+    'أكل': 'mekla',
+    'نشرب': 'nochreb',
+    'شرب':  'chrab',
+    'نرقد': 'norked',
+    'نوم':  'rked',
+    'نخدم': 'nekhdem',
+    'عمل': 'khedma',
+    'العمل': 'khedma',
+    'نمشي': 'nemchi',
+    'نجي': 'nji',
+    'نشوف': 'nchouf',
+    'نتفرج': 'netfarej',
+    'نستنى': 'nestana',
+    'نرجع': 'narja',
+    'نخرج': 'nokhrej',
+    
+    # === QUESTIONS ===
+    'شنوة': 'chnoua',
+    'ماذا': 'chnoua',
+    'كيفاش': 'kifech',
+    'كيف': 'kifech',
+    'علاش': 'alech',
+    'لماذا': 'alech',
+    'وين': 'win',
+    'أين': 'win',
+    'وقتاش': 'wakteh',
+    'متى': 'wakteh',
+    'شكون': 'chkoun',
+    'من': 'chkoun',
+    'شيء': 'chy',
+    
+    # === CHIFFRES ===
+    'واحد': 'wahed',
+    'اثنان':  'zouz',
+    'ثلاثة': 'thletha',
+    'أربعة': 'arbaa',
+    'خمسة': 'khamsa',
+    'ستة': 'setta',
+    'سبعة': 'sebaa',
+    'ثمانية': 'thmenia',
+    'تسعة': 'tesaa',
+    'عشرة': 'achra',
+    
+    # === MAISON & OBJETS ===
+    'غرفة': 'bit',
+    'مطبخ': 'koujina',
+    'حمام': 'hamem',
+    'باب': 'beb',
+    'نافذة': 'chobek',
+    'سرير': 'srir',
+    'كرسي': 'korsi',
+    'طاولة': 'tawle',
+    'مفتاح': 'mefteh',
+    'نار':  'nar',
+    'ثلاجة': 'frigidaire',
+    
+    # === NOURRITURE ===
     'خبز': 'khobz',
-    'ماء': 'ma',
-    'شاي': 'tay',
+    'ماء':  'ma',
+    'شاي': 'tey',
     'قهوة': 'kahwa',
     'لحم': 'lham',
-    'دجاج': 'djaj',
-    'سمك': 'hout',
+    'دجاج': 'djej',
+    'سمك':  'hout',
     'ملح': 'melh',
-    'سكر': 'soker',
-    'فاكهة': 'ghala',
-    'تفاح': 'toffah',
-    'برتقال': 'lim',
-    'موز': 'banan',
-
-     # === TECHNOLOGIE ===
-    'حاسوب': 'ordinateur',
-    'هاتف': 'telifun',
+    'سكر':  'sokkar',
+    'فاكهة': 'ghalla',
+    'تفاح': 'toffeh',
+    'برتقال': 'bordgen',
+    'موز': 'banane',
+    
+    # === TECHNOLOGIE ===
+    'حاسوب': 'pc',
+    'هاتف': 'portable',
     'إنترنت': 'internet',
-    'ملف': 'fichee',
     'صورة': 'taswira',
-    'برنامج': 'programme',
-
-    'المنستير': 'mestir',
-
+    
+    # === ÉVÉNEMENTS ===
+    'حفلة': 'hafla',
+    'عرض': 'ardh',
+    'مباراة': 'match',
+    'كرة': 'koura',
+    'فيلم': 'film',
+    'مسرح': 'masrah',
+    'موسيقى': 'muzika',
+    'فن': 'fann',
+    'ثقافة': 'thakafa',
+    'سياحة': 'siyeha',
+    'عطلة': 'otla',
+    'مهرجان': 'mahrejen',
+    'تنظيم': 'tandhim',
+    'تأخير': 'takhir',
+    
+    # === EXPRESSIONS ===
+    'والله': 'wallah',
+    'يعني': 'yaani',
+    'برك': 'bark',
+    'زعمة': 'zaama',
+    'باهي': 'behi',
+    'صحة': 'saha',
+    'عسلامة': 'aslema',
+    'الخير': 'khir',
+    'ليلة': 'lila',
+    'مبروك': 'mabrouk',
+    
+    # === MOTS SPÉCIFIQUES AUX DONNÉES ===
+    'الدنيا': 'denya',
+    'حلوة': 'hlowa',
+    'حلو': 'hlou',
+    'معبي': 'maabi',
+    'معبّي': 'maabi',
+    'الافتتاح': 'eftiteh',
+    'الكبير': 'kbir',
+    'كبير': 'kbir',
+    'متاع': 'mtaa',
+    'صراحة': 'sraha',
+    'التوقعات': 'tawakkoaat',
+    'تذكير': 'tadhkir',
+    'عند': 'and',
+    'على': 'ala',
+    'الساعة': 'saa',
+    'عامر': 'amer',
+    'قوية': 'kwiya',
+    'قوي': 'kwi',
+    'تشجع': 'tchajaa',
+    'بكري': 'bekri',
+    'جديدة': 'jdida',
+    'جديد': 'jdid',
+    'الإضاءة': 'dhaw',
+    'المقابلة': 'match',
+    'تعطلت': 'taatlet',
+    'الطبخ': 'tabkh',
+    'المركزي': 'markazi',
+    'خضر': 'khodhra',
+    'طازجة': 'tazja',
+    'طماطم': 'tmatem',
+    'بنينة': 'bnina',
+    'بنين': 'bnin',
+    'عروض': 'oroudh',
+    'البهجة': 'behja',
+    'الشارع': 'cheraa',
+    'قدام': 'koddem',
+    'التصاور': 'tsawer',
+    'سياحي': 'siyehi',
+    'منظم': 'mnadhem',
+    'مزيان': 'mezyen',
+    'الصوت': 'sot',
+    'القاعة': 'salla',
+    'مزعج': 'ikalek',
+    'جمعة': 'jomaa',
+    'ثقافية': 'thakafiya',
+    'معرض': 'maaredh',
+    'كتب': 'kotob',
+    'صغير': 'sghir',
+    'صغيرة': 'sghira',
+    'للكورنيش': 'lel_corniche',
+    'الغروب': 'ghroub',
+    'هادي': 'hedi',
+    'زين': 'zin',
+    'المسرحي': 'masrahi',
+    'ضعيف': 'dhaif',
+    'شوي': 'chwi',
+    'المنطقة': 'mantka',
+    'طرقات': 'torkaat',
+    'صيانة': 'siyana',
+    'المرور': 'morour',
+    'أخبار': 'akhbar',
+    'سريعة': 'sriaa',
+    'ندوة': 'nadwa',
+    'العلوم': 'oloum',
+    'مشاريع': 'macharia',
+    'جامعة': 'jemaa',
+    'صورة': 'soura',
+    'المستوى': 'mostwa',
+    'كلية': 'koliya',
+    'نقص': 'noks',
+    'الطلبة': 'talaba',
+    'أيام': 'ayem',
+    'سينما': 'cinema',
+    'تحت': 'taht',
+    'النجوم': 'njoum',
+    'السهرة': 'sahra',
+    'طويلة': 'twila',
+    'طويل': 'twil',
+    'الفرقة': 'ferka',
+    'للاعبين': 'lel_laabin',
+    'أول': 'awel',
+    'رسمي': 'rasmi',
+    'حركة': 'haraka',
+    'رياضية': 'riyadhiya',
+    'الشباب': 'chabeb',
+    'حول': 'hawel',
+    'تاريخ': 'tarikh',
+    'آخر': 'akher',
+    'العلمية': 'ilmiya',
+    'موعدنا': 'mawidna',
+    'جمهور': 'jomhour',
+    'الحبيب': 'hbib',
+    'نغني': 'nghanni',
+    'الموسم': 'mawsem',
+    'تخفيض': 'takhfidh',
+    'فندق': 'fondok',
+    'موقع': 'mawkaa',
+    'خدمات': 'khadamet',
+    'مسابقة': 'mosabka',
+    'جمال': 'jamel',
+    'فوج': 'fawj',
+    'التونسية': 'tounsiya',
+    'جهة': 'jiha',
+    'قلب': 'kalb',
+    'أجواء': 'ajwaa',
+    'العيد': 'eid',
+    'كبار': 'kbar',
+    'تفاصيل': 'tafasil',
+    'ناجح': 'najeh',
+    'المسؤول': 'masoul',
+    'النقل': 'nakl',
+    'معاناة': 'mouanet',
+    'المسافرين': 'msafrin',
+    'غياب': 'ghyab',
+    'رحلات': 'rahlat',
+    'موش': 'mouch',
+    'قد': 'ked',
+    'في': 'fi',
+    'و': 'w',
+    'ما': 'ma',
+    'هي': 'hiya',
+    'هو': 'houwa',
+    'كان': 'ken',
+    'كانت': 'kenet',
+    'فيه': 'fih',
+    'فيها': 'fiha',
+    'عليه': 'alih',
+    'عليها':  'aliha',
+    'منه': 'menou',
+    'منها': 'menha',
+    'إلى': 'lel',
+    'مع': 'maa',
+    'بعد': 'baad',
+    'قبل': 'kabl',
+    'بين': 'bin',
+    'كل': 'kol',
+    'بعض': 'baadh',
+    'هذا': 'hadha',
+    'هذه': 'hedhi',
+    'ذلك': 'dhalik',
+    'هنا': 'hne',
+    'هناك':  'ghadika',
+    'الذي': 'eli',
+    'التي': 'eli',
+    'اللي': 'eli',
+    'و': 'we',
 }
+
 # Dictionnaire Translittération Darija -> Darija normalisé
 DARIJA_NORMALIZATION = {
     # Variantes orthographiques courantes
@@ -666,52 +969,168 @@ DARIJA_NORMALIZATION = {
 # Mots à garder tels quels (noms propres, etc.)
 KEEP_AS_IS = {'steg', 'us', 'mestir', 'facebook', 'instagram', 'twitter'}
 
+# ============================================
+# PROTECTION DES NOMBRES ET FORMATS SPÉCIAUX
+# ============================================
+
+import re
+
+# Variable globale pour stocker les patterns protégés
+_protected_values = {}
+_protection_counter = 0
+
+# Patterns à protéger (ne pas convertir les chiffres)
+def extract_protected_patterns(text):
+    """
+    Extrait et protège les patterns spéciaux (temps, dates, nombres).
+    """
+    global _protected_values, _protection_counter
+    _protected_values = {}
+    _protection_counter = 0
+    
+    result_text = text
+    
+    # Patterns à protéger (ordre important - du plus spécifique au plus général)
+    patterns = [
+        (r'\b\d{1,2}:\d{2}\b', 'time'),              # 18:30, 9:00
+        (r'\b\d{1,2}h\d{2}\b', 'time'),              # 14h30
+        (r'\b\d{1,2}[/\-\.]\d{1,2}[/\-\.]\d{2,4}\b', 'date'),  # 25/12/2024
+        (r'\b\d{1,2}[/\-\.]\d{1,2}\b', 'date'),      # 25/12
+        (r'\b(19|20)\d{2}\b', 'year'),               # 1990, 2024
+        (r'\b\d+%', 'percentage'),                   # 50%, 100%
+        (r'\b\d+(\.\d+)?\s*(dt|tnd|دينار)\b', 'price'),  # 50dt
+        (r'\b\d+\s*(dt|tnd|دينار)\b', 'price'),     # 50 dt
+    ]
+    
+    for pattern, pattern_type in patterns:
+        matches = list(re.finditer(pattern, result_text, re.IGNORECASE))
+        for match in reversed(matches):  # Reversed pour ne pas décaler les positions
+            original_value = match.group()
+            placeholder = f"PROT{_protection_counter}PROT"
+            _protected_values[placeholder. lower()] = original_value  # Stocker en minuscule
+            _protected_values[placeholder] = original_value  # Stocker aussi en original
+            result_text = result_text[: match.start()] + placeholder + result_text[match.end():]
+            _protection_counter += 1
+    
+    return result_text
+
+
+def restore_protected_patterns(text):
+    """
+    Restaure les patterns protégés après la conversion.
+    """
+    global _protected_values
+    
+    result = text
+    
+    # Restaurer tous les placeholders (en minuscule car le texte est converti en minuscule)
+    for placeholder, original in _protected_values.items():
+        result = result.replace(placeholder, original)
+        result = result.replace(placeholder.lower(), original)
+    
+    return result
+
+def transliterate_arabic_to_latin(text):
+    """
+    Convertit le texte arabe en caractères latins (Darija).
+    
+    Args:
+        text:  Texte en arabe
+    
+    Returns:
+        Texte translittéré en caractères latins
+    """
+    words = text.split()
+    result_words = []
+    
+    for word in words:
+        # Nettoyer la ponctuation
+        clean_word = re.sub(r'[^\u0600-\u06FF\w]', '', word)
+        punctuation_before = ''
+        punctuation_after = ''
+        
+        # Extraire la ponctuation
+        match = re.match(r'^([^\u0600-\u06FF\w]*)(.+?)([^\u0600-\u06FF\w]*)$', word)
+        if match:
+            punctuation_before = match.group(1)
+            clean_word = match.group(2)
+            punctuation_after = match. group(3)
+        
+        if not clean_word:
+            continue
+        
+        # Vérifier si c'est un mot arabe (contient des caractères arabes)
+        if re.search(r'[\u0600-\u06FF]', clean_word):
+            # 1. Chercher d'abord dans le dictionnaire de mots complets
+            if clean_word in ARABIC_WORDS_TO_DARIJA_LATIN:
+                transliterated = ARABIC_WORDS_TO_DARIJA_LATIN[clean_word]
+            else:
+                # 2. Translittération lettre par lettre
+                transliterated = ''
+                for char in clean_word:
+                    if char in ARABIC_TO_LATIN:
+                        transliterated += ARABIC_TO_LATIN[char]
+                    else:
+                        transliterated += char
+            
+            result_words.append(punctuation_before + transliterated + punctuation_after)
+        else:
+            # Mot non-arabe, garder tel quel
+            result_words.append(word)
+    
+    return ' '.join(result_words)
+
+
+def is_arabic_text(text):
+    """
+    Vérifie si le texte contient principalement des caractères arabes. 
+    """
+    arabic_chars = len(re.findall(r'[\u0600-\u06FF]', text))
+    total_chars = len(re.findall(r'\w', text))
+    
+    if total_chars == 0:
+        return False
+    
+    return arabic_chars / total_chars > 0.3  # Plus de 30% de caractères arabes
 
 def normalize_to_darija(text):
     """
     Normalise le texte vers le Darija tunisien.
-    Convertit Français, Arabe standard, et variantes Darija vers une forme commune.
     """
     text_lower = text.lower()
     words = text_lower.split()
     normalized_words = []
     
     for word in words:
-        # Nettoyer la ponctuation
         clean_word = re.sub(r'[^\w\s]', '', word)
         punctuation = word[len(clean_word):] if len(word) > len(clean_word) else ''
         
         if not clean_word:
             continue
         
-        # ══════════════════════════════════════════════════════════
-        # ÉTAPE 1: TOUJOURS convertir les chiffres Darija d'abord! 
-        # ══════════════════════════════════════════════════════════
+        # ÉTAPE 1: Convertir les chiffres Darija vers lettres
         converted_word = convert_darija_numbers_smart(clean_word)
         
-        # Garder certains mots tels quels (après conversion des chiffres)
         if converted_word in KEEP_AS_IS:
-            normalized_words. append(converted_word + punctuation)
+            normalized_words.append(converted_word + punctuation)
             continue
         
-        # ÉTAPE 2: Vérifier dans le dictionnaire de normalisation Darija
+        # ÉTAPE 2: Vérifier Darija normalization
         if converted_word in DARIJA_NORMALIZATION:
             normalized_words.append(DARIJA_NORMALIZATION[converted_word] + punctuation)
             continue
         
-        # ÉTAPE 3: Vérifier Français -> Darija (mot original sans chiffres)
+        # ÉTAPE 3: Vérifier Français -> Darija
         if clean_word in FRENCH_TO_DARIJA:
             normalized_words.append(FRENCH_TO_DARIJA[clean_word] + punctuation)
             continue
             
-        # ÉTAPE 4: Vérifier Arabe -> Darija
-        if clean_word in ARABIC_TO_DARIJA: 
-            normalized_words.append(ARABIC_TO_DARIJA[clean_word] + punctuation)
+        # ÉTAPE 4: Vérifier Arabe -> Darija (MODIFIÉ)
+        if clean_word in ARABIC_WORDS_TO_DARIJA_LATIN:
+            normalized_words.append(ARABIC_WORDS_TO_DARIJA_LATIN[clean_word] + punctuation)
             continue
         
-        # ══════════════════════════════════════════════════════════
-        # ÉTAPE 5: Garder le mot CONVERTI (avec chiffres remplacés)
-        # ══════════════════════════════════════════════════════════
+        # ÉTAPE 5: Garder le mot converti
         normalized_words.append(converted_word + punctuation)
     
     return ' '.join(normalized_words)
@@ -733,23 +1152,31 @@ def normalize_arabic_chars(text):
     
     return text
 
-
 def normalize_text(text):
-    """Pipeline de normalisation complète vers Darija."""
+    """Pipeline de normalisation complète vers Darija Latin."""
     # 1. Supprimer les emojis
     text = remove_emojis(text)
     
-    # 2. Normaliser caractères arabes
+    # 2. Protéger les nombres, heures, dates AVANT tout traitement
+    text = extract_protected_patterns(text)
+    
+    # 3. Supprimer les diacritiques arabes
     text = normalize_arabic_chars(text)
     
-    # 3.  Convertir vers Darija
+    # 4. Translittérer l'arabe vers le latin
+    if is_arabic_text(text):
+        text = transliterate_arabic_to_latin(text)
+    
+    # 5. Convertir vers Darija normalisé
     text = normalize_to_darija(text)
     
-    # 4. Nettoyer espaces
+    # 6. Restaurer les nombres, heures, dates protégés
+    text = restore_protected_patterns(text)
+    
+    # 7. Nettoyer espaces
     text = re.sub(r'\s+', ' ', text).strip()
     
     return text
-
 
 def detect_language(text):
     """Détecte la langue originale du texte."""
