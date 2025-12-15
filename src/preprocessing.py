@@ -394,7 +394,7 @@ FRENCH_TO_DARIJA = {
     'trafic': 'zahma',
     'embouteillage': 'zahma',
     'circulation': 'zahma',
-    'route': 'tri9',
+    'route': 'trik',
     
     # Problèmes
     'problème': 'mochkla',
@@ -427,7 +427,51 @@ FRENCH_TO_DARIJA = {
     'enfants': 'sghar',
     'homme': 'rajel',
     'femme': 'mra',
-    
+    'tortue' : 'soulehfet',
+    'sauvée' : 'monktha',
+
+    'vaccination': 'talkih',
+    'gratuite' : 'blech',
+    'chats' : 'ktates',
+    'chiens' : 'klab',
+    'campagne' : 'hemla',
+
+   'inquiète' : 'yhazen',
+    'autorités' : 'masoulin',
+    'tunisiennes' : 'twensa',
+
+    'coupures' : 'kassen',
+    'électricité' : 'dhaw',
+    'zones' : 'manatek',
+    'concernées' : 'eli ihemha',
+
+     # === Jours de la semaine ===
+    'dimanche': 'el had',
+    'lundi':   'etnin',
+    'mardi':  'ethlatha',
+    'mercredi':  'elarbaa',
+    'jeudi': 'elkhmis',
+    'vendredi': 'ejjomaa',
+    'samedi':  'essebt',
+
+    'et' : 'w',
+    'à' : 'fi',
+    'ce': 'hadha',
+    'cet': 'hadha',
+    'cette': 'hedhi',
+    'ces': 'hedhom',
+ 
+    'dans': 'fi',
+    'parc': 'hadika',
+     'rentre': 'yarja',
+    'parc': 'hadika',
+    'chaque': 'koll',
+    'fois': 'marra',
+
+        'je': 'ani',
+        'vois': 'nchouf',
+
+        
     # Questions
     'quoi': 'chnoua',
     'comment': 'kifech',
@@ -449,6 +493,78 @@ FRENCH_TO_DARIJA = {
     'tourisme': 'siyeha',
     'touriste': 'siyeha',
     'vacances': 'otla',
+     # === Verbes ===
+    'protéger': 'nahmiw',
+    'proteger': 'nahmiw',
+    'protège': 'nahmi',
+    'protegeons': 'nahmiwha',
+    
+    # === Possessifs ===
+    'notre': 'mtaana',
+    'nos': 'mtaana',
+    'votre': 'mtaakom',
+    'vos': 'mtaakom',
+    'leur': 'mtaahom',
+    'leurs': 'mtaahom',
+    'mon': 'mtaai',
+    'ma': 'mtaai',
+    'mes': 'mtaai',
+    'ton': 'mtaak',
+    'ta': 'mtaak',
+    'tes': 'mtaak',
+    'son': 'mtaah',
+    'sa': 'mtaah',
+    'ses': 'mtaahom',
+    
+    # === Expressions ===
+    "c'est": 'howa',
+    'cest': 'howa',
+    "c'était": 'ken',
+    'cetait': 'ken',
+    
+    # === Vie / Nature ===
+    'vie': 'hayet',
+    'la vie': 'el hayet',
+    'mort': 'mott',
+    'nature': 'tabiaa',
+    'environnement': 'biaa',
+    'pollution': 'talawoth',
+    
+    # === Articles ===
+    'le': 'el',
+    'la':  'el',
+    'les': 'el',
+    'un': 'wahed',
+    'une': 'wahda',
+    'des': '',
+    
+    # === Pronoms ===
+    'il': 'houwa',
+    'elle': 'hiya',
+    'ils': 'houma',
+    'elles': 'houma',
+    'nous': 'ahna',
+    'vous': 'entouma',
+    'on': 'ahna',
+    
+    # === Autres verbes courants ===
+    'est': 'howa',
+    'sont': 'houma',
+    'suis': 'ena',
+    'es': 'enti',
+    'sommes': 'ahna',
+    'êtes': 'entouma',
+    'avoir': 'andou',
+    'ai': 'andi',
+    'as': 'andek',
+    'a': 'andou',
+    'avons': 'andna',
+    'avez': 'andkom',
+    'ont': 'andhom',
+    'faire': 'naamel',
+    'fait': 'aamel',
+    'aimer': 'nheb',
+    'aime': 'nheb',
 }
 
 # ============================================
@@ -712,7 +828,27 @@ ARABIC_WORDS_TO_DARIJA_LATIN = {
     'تفاح': 'toffeh',
     'برتقال': 'bordgen',
     'موز': 'banane',
-    
+       # === MOIS ===
+    'يناير': 'janvier',
+    'جانفي': 'janvier',
+    'فبراير':  'fevrier',
+    'فيفري': 'fevrier',
+    'مارس':  'mars',
+    'أبريل': 'avril',
+    'افريل': 'avril',
+    'ماي': 'mai',
+    'مايو': 'mai',
+    'يونيو': 'juin',
+    'جوان':  'juin',
+    'يوليو': 'juillet',
+    'جويلية': 'juillet',
+    'أغسطس': 'aout',
+    'اوت': 'aout',
+    'سبتمبر': 'septembre',
+    'أكتوبر': 'octobre',
+    'اكتوبر': 'octobre',
+    'نوفمبر': 'novembre',
+    'ديسمبر': 'decembre',
     # === TECHNOLOGIE ===
     'حاسوب': 'pc',
     'هاتف': 'portable',
@@ -881,6 +1017,7 @@ ARABIC_WORDS_TO_DARIJA_LATIN = {
     'تفاصيل': 'tafasil',
     'ناجح': 'najeh',
     'المسؤول': 'masoul',
+    'المسءول': 'masoul',
     'النقل': 'nakl',
     'معاناة': 'mouanet',
     'المسافرين': 'msafrin',
@@ -918,6 +1055,7 @@ ARABIC_WORDS_TO_DARIJA_LATIN = {
     'اللي': 'eli',
     'و': 'w',
     'موكنين': 'moknin',
+    'بسبب': 'bisebab',
 }
 
 # Dictionnaire Translittération Darija -> Darija normalisé
@@ -1014,7 +1152,27 @@ import re
 _protected_values = {}
 _protection_counter = 0
 
-# Patterns à protéger (ne pas convertir les chiffres)
+# Mois en arabe et français pour la protection
+MONTHS_ARABIC = [
+    'يناير', 'جانفي', 'جانفييه',     # Janvier
+    'فبراير', 'فيفري',               # Février
+    'مارس',                          # Mars
+    'أبريل', 'افريل',                # Avril
+    'ماي', 'مايو',                   # Mai
+    'يونيو', 'جوان',                 # Juin
+    'يوليو', 'جويلية',               # Juillet
+    'أغسطس', 'اوت',                  # Août
+    'سبتمبر', 'سبتامبر',             # Septembre
+    'أكتوبر', 'اكتوبر',              # Octobre
+    'نوفمبر', 'نوفامبر',             # Novembre
+    'ديسمبر', 'ديسامبر',             # Décembre
+]
+
+MONTHS_FRENCH = [
+    'janvier', 'fevrier', 'février', 'mars', 'avril', 'mai', 'juin',
+    'juillet', 'aout', 'août', 'septembre', 'octobre', 'novembre', 'decembre', 'décembre'
+]
+
 def extract_protected_patterns(text):
     """
     Extrait et protège les patterns spéciaux (temps, dates, nombres).
@@ -1025,11 +1183,82 @@ def extract_protected_patterns(text):
     
     result_text = text
     
-    # Patterns à protéger (ordre important - du plus spécifique au plus général)
+   # 1. Protéger les PLAGES de dates avec mois en arabe (ex: 2 و3 ماي 2025, 30 أكتوبر لـ1 نوفمبر)
+    for month in MONTHS_ARABIC:
+        # Pattern:  nombre + و/- + nombre + mois + année optionnelle
+        # Ex: 2 و3 ماي 2025 ou 2-3 ماي 2025
+        pattern = rf'\b(\d{{1,2}})\s*[وو\-]\s*(\d{{1,2}})\s+{month}(\s+\d{{4}})?\b'
+        matches = list(re.finditer(pattern, result_text))
+        for match in reversed(matches):
+            original_value = match.group()
+            placeholder = f"PROT{_protection_counter}PROT"
+            _protected_values[placeholder] = original_value
+            _protected_values[placeholder.lower()] = original_value
+            result_text = result_text[: match.start()] + placeholder + result_text[match.end():]
+            _protection_counter += 1
+    
+    # 2. Protéger les dates simples avec mois en arabe (ex: 30 أكتوبر, 1 نوفمبر)
+    for month in MONTHS_ARABIC:
+        # Pattern: nombre + espace + mois + année optionnelle
+        pattern = rf'\b(\d{{1,2}})\s+{month}(\s+\d{{4}})?\b'
+        matches = list(re.finditer(pattern, result_text))
+        for match in reversed(matches):
+            # Vérifier que ce n'est pas déjà protégé
+            if 'PROT' in result_text[max(0, match.start()-10):match.end()+10]:
+                continue
+            original_value = match.group()
+            placeholder = f"PROT{_protection_counter}PROT"
+            _protected_values[placeholder] = original_value
+            _protected_values[placeholder.lower()] = original_value
+            result_text = result_text[:match.start()] + placeholder + result_text[match.end():]
+            _protection_counter += 1
+    
+      # 3. Protéger les plages de dates avec mois en français
+    for month in MONTHS_FRENCH:
+        pattern = rf'\b(\d{{1,2}})\s*[et\-وو]\s*(\d{{1,2}})\s+{month}(\s+\d{{4}})?\b'
+        matches = list(re.finditer(pattern, result_text, re.IGNORECASE))
+        for match in reversed(matches):
+            original_value = match.group()
+            placeholder = f"PROT{_protection_counter}PROT"
+            _protected_values[placeholder] = original_value
+            _protected_values[placeholder.lower()] = original_value
+            result_text = result_text[: match.start()] + placeholder + result_text[match.end():]
+            _protection_counter += 1
+    
+    # 4. Protéger les dates simples avec mois en français
+    for month in MONTHS_FRENCH:
+        pattern = rf'\b(\d{{1,2}})\s+{month}(\s+\d{{4}})?\b'
+        matches = list(re.finditer(pattern, result_text, re.IGNORECASE))
+        for match in reversed(matches):
+            if 'PROT' in result_text[max(0, match.start()-10):match.end()+10]:
+                continue
+            original_value = match.group()
+            placeholder = f"PROT{_protection_counter}PROT"
+            _protected_values[placeholder] = original_value
+            _protected_values[placeholder.lower()] = original_value
+            result_text = result_text[:match.start()] + placeholder + result_text[match.end():]
+            _protection_counter += 1
+    
+    # 5. Protéger les plages de dates entre deux mois (ex: 30 أكتوبر لـ1 نوفمبر)
+    for month1 in MONTHS_ARABIC: 
+        for month2 in MONTHS_ARABIC:
+            pattern = rf'\b(\d{{1,2}})\s+{month1}\s+[لِـل]+\s*(\d{{1,2}})\s+{month2}\b'
+            matches = list(re. finditer(pattern, result_text))
+            for match in reversed(matches):
+                if 'PROT' in result_text[max(0, match.start()-10):match.end()+10]:
+                    continue
+                original_value = match. group()
+                placeholder = f"PROT{_protection_counter}PROT"
+                _protected_values[placeholder] = original_value
+                _protected_values[placeholder.lower()] = original_value
+                result_text = result_text[:match.start()] + placeholder + result_text[match.end():]
+                _protection_counter += 1
+    
+    # 3. Patterns numériques classiques
     patterns = [
         (r'\b\d{1,2}:\d{2}\b', 'time'),              # 18:30, 9:00
         (r'\b\d{1,2}h\d{2}\b', 'time'),              # 14h30
-        (r'\b\d{1,2}[/\-\.]\d{1,2}[/\-\.]\d{2,4}\b', 'date'),  # 25/12/2024
+        (r'\b\d{1,2}[/\-\. ]\d{1,2}[/\-\. ]\d{2,4}\b', 'date'),  # 25/12/2024
         (r'\b\d{1,2}[/\-\.]\d{1,2}\b', 'date'),      # 25/12
         (r'\b(19|20)\d{2}\b', 'year'),               # 1990, 2024
         (r'\b\d+%', 'percentage'),                   # 50%, 100%
@@ -1038,13 +1267,16 @@ def extract_protected_patterns(text):
     ]
     
     for pattern, pattern_type in patterns:
-        matches = list(re.finditer(pattern, result_text, re.IGNORECASE))
-        for match in reversed(matches):  # Reversed pour ne pas décaler les positions
+        matches = list(re.finditer(pattern, result_text, re. IGNORECASE))
+        for match in reversed(matches):
+            # Vérifier que ce n'est pas déjà un placeholder
+            if 'PROT' in match.group():
+                continue
             original_value = match.group()
             placeholder = f"PROT{_protection_counter}PROT"
-            _protected_values[placeholder. lower()] = original_value  # Stocker en minuscule
-            _protected_values[placeholder] = original_value  # Stocker aussi en original
-            result_text = result_text[: match.start()] + placeholder + result_text[match.end():]
+            _protected_values[placeholder] = original_value
+            _protected_values[placeholder.lower()] = original_value
+            result_text = result_text[:match.start()] + placeholder + result_text[match.end():]
             _protection_counter += 1
     
     return result_text
@@ -1062,6 +1294,43 @@ def restore_protected_patterns(text):
     for placeholder, original in _protected_values.items():
         result = result.replace(placeholder, original)
         result = result.replace(placeholder.lower(), original)
+    
+    return result
+
+
+def convert_arabic_dates_to_latin(text):
+    """
+    Convertit les dates avec mois arabes vers le format latin.
+    Ex: 2 و3 ماي 2025 -> 2 w 3 mai 2025
+        30 أكتوبر -> 30 octobre
+    """
+    month_mapping = {
+        'يناير': 'janvier', 'جانفي': 'janvier', 'جانفييه': 'janvier',
+        'فبراير':  'fevrier', 'فيفري': 'fevrier',
+        'مارس': 'mars',
+        'أبريل':  'avril', 'افريل': 'avril',
+        'ماي': 'mai', 'مايو': 'mai',
+        'يونيو': 'juin', 'جوان': 'juin',
+        'يوليو': 'juillet', 'جويلية': 'juillet',
+        'أغسطس': 'aout', 'اوت': 'aout',
+        'سبتمبر': 'septembre', 'سبتامبر': 'septembre',
+        'أكتوبر': 'octobre', 'اكتوبر': 'octobre',
+        'نوفمبر': 'novembre', 'نوفامبر': 'novembre',
+        'ديسمبر': 'decembre', 'ديسامبر': 'decembre',
+    }
+    
+    result = text
+    
+    # Convertir les mois
+    for arabic, latin in month_mapping.items():
+        result = result.replace(arabic, latin)
+    
+    # Convertir و en w (pour les dates)
+    # Pattern: chiffre + و + chiffre
+    result = re.sub(r'(\d)\s*و\s*(\d)', r'\1 w \2', result)
+    
+    # Convertir لـ/ل en "lel" (pour les plages)
+    result = re.sub(r'\s*[لِـل]+\s*', ' lel ', result)
     
     return result
 # ============================================
@@ -1285,28 +1554,191 @@ def normalize_arabic_chars(text):
     
     return text
 
+def clean_special_characters(text):
+    """
+    Nettoie les caractères spéciaux (guillemets, apostrophes, tirets, etc.)
+    Couvre TOUTES les variantes possibles d'apostrophes. 
+    """
+    if not text:
+        return text
+    
+    # Liste exhaustive de toutes les apostrophes possibles
+    apostrophes = [
+        '\u0027',  # ' APOSTROPHE
+        '\u2019',  # ' RIGHT SINGLE QUOTATION MARK
+        '\u2018',  # ' LEFT SINGLE QUOTATION MARK
+        '\u02BC',  # ʼ MODIFIER LETTER APOSTROPHE
+        '\u02B9',  # ʹ MODIFIER LETTER PRIME
+        '\u0060',  # ` GRAVE ACCENT
+        '\u00B4',  # ´ ACUTE ACCENT
+        '\u2032',  # ′ PRIME
+        '\u2035',  # ‵ REVERSED PRIME
+        '\uFF07',  # ＇ FULLWIDTH APOSTROPHE
+        '\u02BB',  # ʻ MODIFIER LETTER TURNED COMMA
+        '\u02CA',  # ˊ MODIFIER LETTER ACUTE ACCENT
+        '\u02CB',  # ˋ MODIFIER LETTER GRAVE ACCENT
+    ]
+    
+    # Remplacer toutes les apostrophes par l'apostrophe standard
+    for apos in apostrophes:
+        text = text.replace(apos, "'")
+    
+    # Autres remplacements
+    replacements = {
+        # Guillemets
+        '«':  '',
+        '»': '',
+        '"': '',
+        '"':  '',
+        '„': '',
+        '"': '',
+        
+        # Tirets
+        '—': '-',
+        '–': '-',
+        '−': '-',
+        
+        # Espaces spéciaux
+        '\u00a0': ' ',  # Non-breaking space
+        '\u200b': '',   # Zero-width space
+        '\u200c': '',   # Zero-width non-joiner
+        '\u200d': '',   # Zero-width joiner
+        '\ufeff': '',   # BOM
+        
+        # Autres
+        '…': '...',
+    }
+    
+    for old, new in replacements.items():
+        text = text.replace(old, new)
+    
+    return text
+
+
+def clean_punctuation(text):
+    """
+    Nettoie la ponctuation du texte. 
+    Options: 
+    - Supprimer toute la ponctuation
+    - OU garder seulement certains caractères utiles
+    """
+    if not text:
+        return text
+    
+    # Option 1: Supprimer TOUTE la ponctuation
+    # Garder seulement:  lettres, chiffres, espaces
+    text = re.sub(r'[^\w\s]', ' ', text)
+    
+    # Nettoyer les espaces multiples
+    text = re.sub(r'\s+', ' ', text).strip()
+    
+    return text
+# ============================================
+# GESTION DES CONTRACTIONS FRANÇAISES
+# ============================================
+def expand_french_contractions(text):
+    """
+    Traite les contractions françaises (mots avec apostrophe).
+    
+    Étape 1: Remplace les expressions complètes (d'électricité → dhaw)
+    Étape 2: Sépare les contractions restantes (l'eau → l eau)
+    """
+    result = text
+    
+    # 1. Expressions complètes avec contractions → traduction directe
+    full_expressions = {
+        # Électricité / Services
+        "d'électricité": "dhaw",
+        "d'electricité": "dhaw",
+        "d'electricite": "dhaw",
+        "d'internet": "internet",
+        "d'eau": "ma",
+        
+        # Lieux avec article
+        "l'eau": "el ma",
+        "l'école": "el madrsa",
+        "l'hôpital": "el sbitar",
+        "l'aéroport": "el matar",
+        "l'hôtel": "el hotel",
+        "l'université": "el fac",
+        "l'église": "el knisa",
+        "l'entrée": "el dkhoul",
+        "l'événement": "el event",
+        
+        # Expressions courantes
+        "aujourd'hui": "lyoum",
+        "d'accord": "mwefek",
+        "quelqu'un": "wahed",
+        "quelqu'une": "wahda",
+        "c'est-à-dire": "yaani",
+        "n'est-ce pas": "mouch keka",
+        "s'il vous plaît": "aychek",
+        "s'il te plaît": "aychek",
+        
+        # C'est / C'était
+        "c'est": "howa",
+        "c'était": "ken",
+    }
+    
+    for expression, replacement in full_expressions. items():
+        pattern = re.compile(re.escape(expression), re.IGNORECASE)
+        result = pattern. sub(replacement, result)
+    
+    # 2. Contractions restantes → séparer en deux mots
+    simple_contractions = [
+        ("d'", "de "),
+        ("l'", "el "),
+        ("j'", "ena "),
+        ("m'", "m "),
+        ("t'", "t "),
+        ("s'", "s "),
+        ("n'", "n "),
+        ("qu'", "qu "),
+    ]
+    
+    for contraction, expansion in simple_contractions:
+        result = re. sub(re.escape(contraction), expansion, result, flags=re.IGNORECASE)
+    
+    return result
+
 def normalize_text(text):
     """Pipeline de normalisation complète vers Darija Latin."""
+    if not text:
+        return text
+    
     # 1. Supprimer les emojis
     text = remove_emojis(text)
     
-    # 2. Protéger les nombres, heures, dates
+    # 2. Nettoyer les caractères spéciaux (guillemets, apostrophes)
+    text = clean_special_characters(text)
+    
+    # 3. Protéger les nombres, heures, dates
     text = extract_protected_patterns(text)
     
-    # 3. NOUVEAU:  Translittérer l'arabe AVANT de normaliser les caractères
+    # 4. Traiter les contractions françaises
+    text = expand_french_contractions(text)
+    
+    # 5. Translittérer l'arabe vers le latin
     if is_arabic_text(text):
         text = transliterate_arabic_to_latin(text)
     
-    # 4. Supprimer les diacritiques arabes (pour le texte restant)
+    # 6. Normaliser les caractères arabes
     text = normalize_arabic_chars(text)
     
-    # 5. Convertir vers Darija normalisé
+    # 7. Convertir vers Darija normalisé
     text = normalize_to_darija(text)
     
-    # 6. Restaurer les nombres protégés
+    # 8. Restaurer les patterns protégés
     text = restore_protected_patterns(text)
     
-    # 7. Nettoyer espaces
+    # 9. Convertir les dates arabes en latin (si la fonction existe)
+    if 'convert_arabic_dates_to_latin' in dir():
+        text = convert_arabic_dates_to_latin(text)
+    
+    # 10. NOUVEAU: Nettoyer la ponctuation
+    text = clean_punctuation(text)
+    
+    # 11. Nettoyer espaces finaux
     text = re.sub(r'\s+', ' ', text).strip()
     
     return text
@@ -1393,6 +1825,9 @@ def process_post(post, augment=False, num_augmentations=2):
     """Pipeline complet de traitement d'un post."""
     text = post.get('text', '')
     
+    # NOUVEAU:  Nettoyer les caractères spéciaux dès le début
+    text = clean_special_characters(text)
+    
     # Étape 1: Extraire les emojis ET leur sentiment
     emoji_data = extract_emoji_sentiment(text)
     
@@ -1405,7 +1840,7 @@ def process_post(post, augment=False, num_augmentations=2):
     # Créer le post enrichi
     processed_post = post.copy()
     processed_post. update({
-        'original_text': text,
+        'original_text': post.get('text', ''),  # Garder l'original non modifié
         'clean_text': clean_text,
         'original_lang': original_lang,
         'normalized_lang': 'darija',
@@ -1417,14 +1852,13 @@ def process_post(post, augment=False, num_augmentations=2):
     # Étape 4: Data Augmentation
     if augment:
         augmented_texts = generate_augmented_samples(clean_text, num_augmentations)
-        for aug_text in augmented_texts[1:]:
+        for aug_text in augmented_texts[1:]: 
             aug_post = processed_post.copy()
             aug_post['clean_text'] = aug_text
             aug_post['is_augmented'] = True
             results.append(aug_post)
     
     return results
-
 
 # ============================================
 # 5.  TRAITEMENT DU FICHIER FINAL_EVALUATION_SET
@@ -1652,3 +2086,77 @@ if __name__ == "__main__":
    #     aug_label = " (augmenté)" if r. get('is_augmented') else " (original)"
    #     print(f"  {i+1}. {r['clean_text']}{aug_label}")
         # ============================================
+
+
+        # ============================================
+
+    
+    print("=" * 70)
+    print("🔍 DIAGNOSTIC - Problème d'électricité")
+    print("=" * 70)
+    
+    # Texte de test
+    test_text = "Coupures d'électricité, ce dimanche, à Monastir"
+    
+    # 1. Vérifier le type d'apostrophe
+    print("\n1️⃣ ANALYSE DES CARACTÈRES :")
+    print(f"   Texte: {test_text}")
+    for i, char in enumerate(test_text):
+        code = ord(char)
+        if code > 127 or char in ["'", "'", "'", "ʼ", "´", "`", "'"]:
+            print(f"   Position {i}: '{char}' → Unicode: U+{code:04X} ({code})")
+    
+    # 2. Vérifier si clean_special_characters existe
+    print("\n2️⃣ VÉRIFICATION DES FONCTIONS :")
+    functions_to_check = [
+        'clean_special_characters',
+        'expand_french_contractions', 
+        'normalize_text',
+        'normalize_to_darija'
+    ]
+    for func_name in functions_to_check:
+        exists = func_name in dir()
+        print(f"   {func_name}: {'✅ Existe' if exists else '❌ MANQUANTE'}")
+    
+    # 3. Vérifier le dictionnaire
+    print("\n3️⃣ VÉRIFICATION DU DICTIONNAIRE FRENCH_TO_DARIJA :")
+    words_to_check = ['électricité', 'electricite', 'coupure', 'coupures', 'dimanche']
+    for word in words_to_check:
+        exists = word in FRENCH_TO_DARIJA
+        value = FRENCH_TO_DARIJA. get(word, 'NON TROUVÉ')
+        print(f"   '{word}': {'✅' if exists else '❌'} → {value}")
+    
+    # 4. Test étape par étape
+    print("\n4️⃣ TEST ÉTAPE PAR ÉTAPE :")
+    
+    text = test_text
+    print(f"   Original: {text}")
+    
+    # Étape:  clean_special_characters
+    if 'clean_special_characters' in dir():
+        text = clean_special_characters(text)
+        print(f"   Après clean_special_characters: {text}")
+    else:
+        print("   ❌ clean_special_characters N'EXISTE PAS!")
+    
+    # Étape: expand_french_contractions  
+    if 'expand_french_contractions' in dir():
+        text = expand_french_contractions(text)
+        print(f"   Après expand_french_contractions: {text}")
+    else:
+        print("   ❌ expand_french_contractions N'EXISTE PAS!")
+    
+    # Étape: normalize_to_darija
+    text_lower = text.lower()
+    print(f"   Après lowercase: {text_lower}")
+    
+    text = normalize_to_darija(text_lower)
+    print(f"   Après normalize_to_darija: {text}")
+    
+    # 5. Test final
+    print("\n5️⃣ TEST FINAL normalize_text() :")
+    final_result = normalize_text(test_text)
+    print(f"   Input:   {test_text}")
+    print(f"   Output: {final_result}")
+    
+    print("\n" + "=" * 70)
