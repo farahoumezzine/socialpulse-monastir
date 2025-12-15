@@ -512,24 +512,31 @@ ARABIC_WORDS_TO_DARIJA_LATIN = {
     # === SENTIMENTS ===
     'جميل': 'mezyan',
     'جميلة': 'mezyaa',
+    'جميله': 'mezyaa', 
     'رائع': 'heyel',
     'رائعة': 'heyla',
+    'رائعه': 'heyla',
     'ممتاز': 'momtez',
     'سيء': 'khayeb',
     'خايب': 'khayeb',
     'مشكلة': 'mochkla',
+    'مشكله': 'mochkla',
     'مشاكل': 'machakel',
     'حزين': 'hzin',
     'حزينة':  'hzina',
+    'حزينه': 'hzina',
     'فرحان': 'farhan',
     'فرحانة': 'farhana',
+    'فرحانه': 'farhana',
     'سعيد': 'farhan',
     'سعيدة': 'farhana',
+    'سعيده': 'farhana',
     'تعب': 'taab',
     'تعبة':  'taaba',
+    'تعبه': 'taaba',
     'تعبان': 'taaban',
     'تعبانة': 'taabana',
-    
+    'تعبانه': 'taabana',
     # === TEMPS ===
     'اليوم': 'lyoum',
     'غدوة': 'ghodwa',
@@ -659,9 +666,12 @@ ARABIC_WORDS_TO_DARIJA_LATIN = {
     'وقتاش': 'wakteh',
     'متى': 'wakteh',
     'شكون': 'chkoun',
-    'من': 'chkoun',
+    'من': 'men',
     'شيء': 'chy',
-    
+    'وزين': 'w mezyan',
+    'التأخير': 'tawkhir',
+    'تذمّوا': 'tdhamrou',
+    'فولكلور': 'folklore',
     # === CHIFFRES ===
     'واحد': 'wahed',
     'اثنان':  'zouz',
@@ -676,6 +686,7 @@ ARABIC_WORDS_TO_DARIJA_LATIN = {
     
     # === MAISON & OBJETS ===
     'غرفة': 'bit',
+    'غرفه': 'bit',
     'مطبخ': 'koujina',
     'حمام': 'hamem',
     'باب': 'beb',
@@ -710,12 +721,16 @@ ARABIC_WORDS_TO_DARIJA_LATIN = {
     
     # === ÉVÉNEMENTS ===
     'حفلة': 'hafla',
+    'حفله': 'hafla',
     'عرض': 'ardh',
     'مباراة': 'match',
+    'مباراه': 'match',
     'كرة': 'koura',
+    'كره':  'koura',
     'فيلم': 'film',
     'مسرح': 'masrah',
-    'موسيقى': 'muzika',
+    'موسيقى': 'mousika',
+
     'فن': 'fann',
     'ثقافة': 'thakafa',
     'سياحة': 'siyeha',
@@ -739,6 +754,7 @@ ARABIC_WORDS_TO_DARIJA_LATIN = {
     # === MOTS SPÉCIFIQUES AUX DONNÉES ===
     'الدنيا': 'denya',
     'حلوة': 'hlowa',
+    'حلوه': 'hlowa',    
     'حلو': 'hlou',
     'معبي': 'maabi',
     'معبّي': 'maabi',
@@ -754,10 +770,12 @@ ARABIC_WORDS_TO_DARIJA_LATIN = {
     'الساعة': 'saa',
     'عامر': 'amer',
     'قوية': 'kwiya',
+    'قويه':  'kwiya',
     'قوي': 'kwi',
     'تشجع': 'tchajaa',
     'بكري': 'bekri',
     'جديدة': 'jdida',
+    'جديده':  'jdida',
     'جديد': 'jdid',
     'الإضاءة': 'dhaw',
     'المقابلة': 'match',
@@ -766,8 +784,10 @@ ARABIC_WORDS_TO_DARIJA_LATIN = {
     'المركزي': 'markazi',
     'خضر': 'khodhra',
     'طازجة': 'tazja',
+    'طازجه': 'tazja',
     'طماطم': 'tmatem',
     'بنينة': 'bnina',
+    'بنينه': 'bnina',
     'بنين': 'bnin',
     'عروض': 'oroudh',
     'البهجة': 'behja',
@@ -782,10 +802,12 @@ ARABIC_WORDS_TO_DARIJA_LATIN = {
     'مزعج': 'ikalek',
     'جمعة': 'jomaa',
     'ثقافية': 'thakafiya',
+    'ثقافيه': 'thakafiya',
     'معرض': 'maaredh',
     'كتب': 'kotob',
     'صغير': 'sghir',
     'صغيرة': 'sghira',
+    'صغيره': 'sghira',
     'للكورنيش': 'lel_corniche',
     'الغروب': 'ghroub',
     'هادي': 'hedi',
@@ -799,11 +821,14 @@ ARABIC_WORDS_TO_DARIJA_LATIN = {
     'المرور': 'morour',
     'أخبار': 'akhbar',
     'سريعة': 'sriaa',
+    'سريعه': 'sriaa',
     'ندوة': 'nadwa',
+    'ندوه': 'nadwa',
     'العلوم': 'oloum',
     'مشاريع': 'macharia',
     'جامعة': 'jemaa',
     'صورة': 'soura',
+    'صوره': 'soura',
     'المستوى': 'mostwa',
     'كلية': 'koliya',
     'نقص': 'noks',
@@ -814,18 +839,23 @@ ARABIC_WORDS_TO_DARIJA_LATIN = {
     'النجوم': 'njoum',
     'السهرة': 'sahra',
     'طويلة': 'twila',
+    'طويله':  'twila',
     'طويل': 'twil',
     'الفرقة': 'ferka',
+    'المودرن': 'moderna',
     'للاعبين': 'lel_laabin',
     'أول': 'awel',
     'رسمي': 'rasmi',
     'حركة': 'haraka',
+    'حركه': 'haraka', 
     'رياضية': 'riyadhiya',
     'الشباب': 'chabeb',
     'حول': 'hawel',
     'تاريخ': 'tarikh',
     'آخر': 'akher',
     'العلمية': 'ilmiya',
+    'علمية': 'ilmiya',
+    'علميه': 'ilmiya',
     'موعدنا': 'mawidna',
     'جمهور': 'jomhour',
     'الحبيب': 'hbib',
@@ -836,9 +866,13 @@ ARABIC_WORDS_TO_DARIJA_LATIN = {
     'موقع': 'mawkaa',
     'خدمات': 'khadamet',
     'مسابقة': 'mosabka',
+    'مسابقه': 'mosabka',
     'جمال': 'jamel',
     'فوج': 'fawj',
+    'رياضية': 'riyadhiya',
+    'رياضيه': 'riyadhiya',
     'التونسية': 'tounsiya',
+    'التونسيه': 'tounsiya',
     'جهة': 'jiha',
     'قلب': 'kalb',
     'أجواء': 'ajwaa',
@@ -882,7 +916,8 @@ ARABIC_WORDS_TO_DARIJA_LATIN = {
     'الذي': 'eli',
     'التي': 'eli',
     'اللي': 'eli',
-    'و': 'we',
+    'و': 'w',
+    'موكنين': 'moknin',
 }
 
 # Dictionnaire Translittération Darija -> Darija normalisé
@@ -1029,57 +1064,155 @@ def restore_protected_patterns(text):
         result = result.replace(placeholder.lower(), original)
     
     return result
+# ============================================
+# GESTION DES PRÉFIXES ARABES
+# ============================================
+
+# Préfixes arabes courants (ordre important - du plus long au plus court)
+ARABIC_PREFIXES = [
+    'وال',    # w + al (et le/la)
+    'بال',    # b + al (avec le/la)
+    'لل',     # l + al (pour le/la)
+    'فال',    # f + al (alors le/la)
+    'كال',    # k + al (comme le/la)
+    'وب',     # w + b (et avec)
+    'ول',     # w + l (et pour)
+    'ال',     # al (le/la)
+    'و',      # w (et)
+    'ب',      # b (avec)
+    'ل',      # l (pour)
+    'ف',      # f (alors)
+    'ك',      # k (comme)
+]
+
+# Traduction des préfixes en Darija latin
+PREFIX_TO_DARIJA = {
+    'وال': 'wel_',
+    'بال': 'bel_',
+    'لل': 'lel_',
+    'فال': 'fel_',
+    'كال':  'kel_',
+    'وب': 'w_b',
+    'ول': 'w_l',
+    'ال': '',        # Article défini - souvent omis en darija
+    'و': 'w_',
+    'ب': 'b_',
+    'ل': 'l_',
+    'ف': 'f_',
+    'ك':  'k_',
+}
+
+
+def separate_arabic_prefix(word):
+    """
+    Sépare le préfixe arabe du mot de base.
+    
+    Args:
+        word:  Mot arabe potentiellement avec préfixe
+    
+    Returns:
+        tuple: (préfixe_darija, mot_base) ou (None, mot_original)
+    
+    Exemples:
+        والموسيقى -> ('w_', 'الموسيقى') -> ensuite 'الموسيقى' -> 'mousika'
+        وحلو -> ('w_', 'حلو')
+        الجو -> ('', 'جو')
+    """
+    for prefix in ARABIC_PREFIXES:
+        if word.startswith(prefix) and len(word) > len(prefix):
+            base_word = word[len(prefix):]
+            darija_prefix = PREFIX_TO_DARIJA.get(prefix, '')
+            
+            # Cas spécial: si le préfixe est 'ال' et le mot de base commence par une lettre solaire
+            # on garde le mot tel quel pour le chercher dans le dictionnaire
+            if prefix == 'ال': 
+                # Vérifier si le mot avec 'ال' est dans le dictionnaire
+                if word in ARABIC_WORDS_TO_DARIJA_LATIN: 
+                    return (None, word)
+                # Sinon retourner le mot sans 'ال'
+                return ('', base_word)
+            
+            return (darija_prefix, base_word)
+    
+    return (None, word)
+
 
 def transliterate_arabic_to_latin(text):
     """
     Convertit le texte arabe en caractères latins (Darija).
-    
-    Args:
-        text:  Texte en arabe
-    
-    Returns:
-        Texte translittéré en caractères latins
+    Gère les préfixes arabes attachés aux mots.
     """
     words = text.split()
     result_words = []
     
     for word in words:
-        # Nettoyer la ponctuation
-        clean_word = re.sub(r'[^\u0600-\u06FF\w]', '', word)
+        # Extraire la ponctuation
         punctuation_before = ''
         punctuation_after = ''
+        clean_word = word
         
-        # Extraire la ponctuation
-        match = re.match(r'^([^\u0600-\u06FF\w]*)(.+?)([^\u0600-\u06FF\w]*)$', word)
-        if match:
-            punctuation_before = match.group(1)
-            clean_word = match.group(2)
-            punctuation_after = match. group(3)
+        # Extraire ponctuation avant
+        while clean_word and not (clean_word[0]. isalnum() or '\u0600' <= clean_word[0] <= '\u06FF'):
+            punctuation_before += clean_word[0]
+            clean_word = clean_word[1:]
+        
+        # Extraire ponctuation après
+        while clean_word and not (clean_word[-1].isalnum() or '\u0600' <= clean_word[-1] <= '\u06FF'):
+            punctuation_after = clean_word[-1] + punctuation_after
+            clean_word = clean_word[:-1]
         
         if not clean_word:
+            if punctuation_before or punctuation_after:
+                result_words.append(punctuation_before + punctuation_after)
             continue
         
-        # Vérifier si c'est un mot arabe (contient des caractères arabes)
+        # Vérifier si c'est un mot arabe
         if re.search(r'[\u0600-\u06FF]', clean_word):
-            # 1. Chercher d'abord dans le dictionnaire de mots complets
+            
+            # 1. Chercher d'abord le mot complet dans le dictionnaire
             if clean_word in ARABIC_WORDS_TO_DARIJA_LATIN:
                 transliterated = ARABIC_WORDS_TO_DARIJA_LATIN[clean_word]
-            else:
-                # 2. Translittération lettre par lettre
-                transliterated = ''
-                for char in clean_word:
-                    if char in ARABIC_TO_LATIN:
-                        transliterated += ARABIC_TO_LATIN[char]
-                    else:
-                        transliterated += char
+                result_words.append(punctuation_before + transliterated + punctuation_after)
+                continue
+            
+            # 2.  Essayer de séparer le préfixe
+            prefix_darija, base_word = separate_arabic_prefix(clean_word)
+            
+            if prefix_darija is not None:
+                # Chercher le mot de base dans le dictionnaire
+                if base_word in ARABIC_WORDS_TO_DARIJA_LATIN:
+                    transliterated = prefix_darija + ARABIC_WORDS_TO_DARIJA_LATIN[base_word]
+                    # Nettoyer les underscores en trop
+                    transliterated = transliterated.replace('_', ' ').strip()
+                    transliterated = re.sub(r'\s+', ' ', transliterated)
+                    result_words. append(punctuation_before + transliterated + punctuation_after)
+                    continue
+                
+                # Essayer sans le 'ال' si présent
+                if base_word. startswith('ال') or base_word.startswith('ال'):
+                    base_without_al = base_word[2: ] if base_word.startswith('ال') else base_word[2:]
+                    if base_without_al in ARABIC_WORDS_TO_DARIJA_LATIN:
+                        transliterated = prefix_darija + ARABIC_WORDS_TO_DARIJA_LATIN[base_without_al]
+                        transliterated = transliterated.replace('_', ' ').strip()
+                        transliterated = re.sub(r'\s+', ' ', transliterated)
+                        result_words.append(punctuation_before + transliterated + punctuation_after)
+                        continue
+            
+            # 3. Translittération lettre par lettre en dernier recours
+            transliterated = ''
+            for char in clean_word:
+                if char in ARABIC_TO_LATIN:
+                    transliterated += ARABIC_TO_LATIN[char]
+                else:
+                    transliterated += char
             
             result_words.append(punctuation_before + transliterated + punctuation_after)
+        
         else:
             # Mot non-arabe, garder tel quel
             result_words.append(word)
     
-    return ' '.join(result_words)
-
+    return ' '. join(result_words)
 
 def is_arabic_text(text):
     """
@@ -1157,20 +1290,20 @@ def normalize_text(text):
     # 1. Supprimer les emojis
     text = remove_emojis(text)
     
-    # 2. Protéger les nombres, heures, dates AVANT tout traitement
+    # 2. Protéger les nombres, heures, dates
     text = extract_protected_patterns(text)
     
-    # 3. Supprimer les diacritiques arabes
-    text = normalize_arabic_chars(text)
-    
-    # 4. Translittérer l'arabe vers le latin
+    # 3. NOUVEAU:  Translittérer l'arabe AVANT de normaliser les caractères
     if is_arabic_text(text):
         text = transliterate_arabic_to_latin(text)
+    
+    # 4. Supprimer les diacritiques arabes (pour le texte restant)
+    text = normalize_arabic_chars(text)
     
     # 5. Convertir vers Darija normalisé
     text = normalize_to_darija(text)
     
-    # 6. Restaurer les nombres, heures, dates protégés
+    # 6. Restaurer les nombres protégés
     text = restore_protected_patterns(text)
     
     # 7. Nettoyer espaces
