@@ -46,21 +46,21 @@
       "emojis": [
         {
           "emoji": "😕",
-          "sentiment": "neutral",
-          "score": 0,
-          "label_darija": "emoji"
+          "sentiment": "negative",
+          "score": -0.5,
+          "label_darija": "mech_fehim"
         },
         {
           "emoji": "😓",
-          "sentiment": "neutral",
-          "score": 0,
-          "label_darija": "emoji"
+          "sentiment": "negative",
+          "score": -0.6,
+          "label_darija": "taab"
         }
       ],
-      "emoji_count": 0,
-      "total_score": 0,
-      "avg_score": 0,
-      "dominant_sentiment": "neutral"
+      "emoji_count": 2,
+      "total_score": -1.1,
+      "avg_score": -0.55,
+      "dominant_sentiment": "negative"
     }
   },
   {
@@ -71,7 +71,7 @@
     "event_type": "culture",
     "source": "darija_events",
     "original_text": "تذكير: غدوة عند Palace des Sciences عرض فيلم 'Parasol' على الساعَة 18:30 — اللي حبّ يحجز يسرع 📢.",
-    "clean_text": "تذكير: غدوه عند palace des sciences عرض فيلم parasoll' علي الساعه 18300 اللي حب يحجز يسرع",
+    "clean_text": "تذكير: غدوه عند palace des sciences عرض فيلم parasoll' علي الساعه 1gha00 اللي حب يحجز يسرع",
     "original_lang": "ar",
     "normalized_lang": "darija",
     "emoji_sentiment": {
@@ -80,12 +80,12 @@
           "emoji": "📢",
           "sentiment": "neutral",
           "score": 0,
-          "label_darija": "emoji"
+          "label_darija": "ilan"
         }
       ],
-      "emoji_count": 0,
+      "emoji_count": 1,
       "total_score": 0,
-      "avg_score": 0,
+      "avg_score": 0.0,
       "dominant_sentiment": "neutral"
     }
   },
@@ -143,13 +143,13 @@
         {
           "emoji": "💡",
           "sentiment": "neutral",
-          "score": 0,
-          "label_darija": "emoji"
+          "score": 0.1,
+          "label_darija": "fikra"
         }
       ],
-      "emoji_count": 1,
-      "total_score": -0.8,
-      "avg_score": -0.8,
+      "emoji_count": 2,
+      "total_score": -0.7,
+      "avg_score": -0.35,
       "dominant_sentiment": "negative"
     }
   },
@@ -170,24 +170,24 @@
           "emoji": "👩",
           "sentiment": "neutral",
           "score": 0,
-          "label_darija": "emoji"
+          "label_darija": "mra"
         },
         {
           "emoji": "🍳",
           "sentiment": "neutral",
-          "score": 0,
-          "label_darija": "emoji"
+          "score": 0.1,
+          "label_darija": "tabkh"
         },
         {
           "emoji": "🥬",
           "sentiment": "neutral",
           "score": 0,
-          "label_darija": "emoji"
+          "label_darija": "khodhra"
         }
       ],
-      "emoji_count": 0,
-      "total_score": 0,
-      "avg_score": 0,
+      "emoji_count": 3,
+      "total_score": 0.1,
+      "avg_score": 0.03,
       "dominant_sentiment": "neutral"
     }
   },
@@ -238,21 +238,21 @@
       "emojis": [
         {
           "emoji": "🥴",
-          "sentiment": "neutral",
-          "score": 0,
-          "label_darija": "emoji"
+          "sentiment": "negative",
+          "score": -0.5,
+          "label_darija": "mouch_merteh"
         },
         {
           "emoji": "🔊",
           "sentiment": "neutral",
           "score": 0,
-          "label_darija": "emoji"
+          "label_darija": "sot"
         }
       ],
-      "emoji_count": 0,
-      "total_score": 0,
-      "avg_score": 0,
-      "dominant_sentiment": "neutral"
+      "emoji_count": 2,
+      "total_score": -0.5,
+      "avg_score": -0.25,
+      "dominant_sentiment": "negative"
     }
   },
   {
@@ -271,20 +271,20 @@
         {
           "emoji": "🎨",
           "sentiment": "neutral",
-          "score": 0,
-          "label_darija": "emoji"
+          "score": 0.4,
+          "label_darija": "fann"
         },
         {
           "emoji": "📚",
           "sentiment": "neutral",
-          "score": 0,
-          "label_darija": "emoji"
+          "score": 0.2,
+          "label_darija": "ktob"
         }
       ],
-      "emoji_count": 0,
-      "total_score": 0,
-      "avg_score": 0,
-      "dominant_sentiment": "neutral"
+      "emoji_count": 2,
+      "total_score": 0.6,
+      "avg_score": 0.3,
+      "dominant_sentiment": "positive"
     }
   },
   {
@@ -308,15 +308,15 @@
         },
         {
           "emoji": "🌅",
-          "sentiment": "neutral",
-          "score": 0,
-          "label_darija": "emoji"
+          "sentiment": "positive",
+          "score": 0.8,
+          "label_darija": "ghroub"
         }
       ],
-      "emoji_count": 1,
-      "total_score": 0,
-      "avg_score": 0.0,
-      "dominant_sentiment": "neutral"
+      "emoji_count": 2,
+      "total_score": 0.8,
+      "avg_score": 0.4,
+      "dominant_sentiment": "positive"
     }
   },
   {
@@ -334,20 +334,20 @@
       "emojis": [
         {
           "emoji": "😕",
-          "sentiment": "neutral",
-          "score": 0,
-          "label_darija": "emoji"
+          "sentiment": "negative",
+          "score": -0.5,
+          "label_darija": "mech_fehim"
         },
         {
           "emoji": "🎭",
           "sentiment": "neutral",
-          "score": 0,
-          "label_darija": "emoji"
+          "score": 0.3,
+          "label_darija": "masrah"
         }
       ],
-      "emoji_count": 0,
-      "total_score": 0,
-      "avg_score": 0,
+      "emoji_count": 2,
+      "total_score": -0.2,
+      "avg_score": -0.1,
       "dominant_sentiment": "neutral"
     }
   },
@@ -368,12 +368,12 @@
           "emoji": "🚧",
           "sentiment": "neutral",
           "score": 0,
-          "label_darija": "emoji"
+          "label_darija": "achghal"
         }
       ],
-      "emoji_count": 0,
+      "emoji_count": 1,
       "total_score": 0,
-      "avg_score": 0,
+      "avg_score": 0.0,
       "dominant_sentiment": "neutral"
     }
   },
@@ -393,19 +393,19 @@
         {
           "emoji": "💡",
           "sentiment": "neutral",
-          "score": 0,
-          "label_darija": "emoji"
+          "score": 0.1,
+          "label_darija": "fikra"
         },
         {
           "emoji": "📚",
           "sentiment": "neutral",
-          "score": 0,
-          "label_darija": "emoji"
+          "score": 0.2,
+          "label_darija": "ktob"
         }
       ],
-      "emoji_count": 0,
-      "total_score": 0,
-      "avg_score": 0,
+      "emoji_count": 2,
+      "total_score": 0.3,
+      "avg_score": 0.15,
       "dominant_sentiment": "neutral"
     }
   },
@@ -458,18 +458,18 @@
           "emoji": "😬",
           "sentiment": "neutral",
           "score": 0,
-          "label_darija": "emoji"
+          "label_darija": "mech_merta7"
         },
         {
           "emoji": "⏰",
           "sentiment": "neutral",
           "score": 0,
-          "label_darija": "emoji"
+          "label_darija": "wa9t"
         }
       ],
-      "emoji_count": 0,
+      "emoji_count": 2,
       "total_score": 0,
-      "avg_score": 0,
+      "avg_score": 0.0,
       "dominant_sentiment": "neutral"
     }
   },
@@ -496,12 +496,12 @@
           "emoji": "🌙",
           "sentiment": "neutral",
           "score": 0,
-          "label_darija": "emoji"
+          "label_darija": "lil"
         }
       ],
-      "emoji_count": 1,
+      "emoji_count": 2,
       "total_score": 0.6,
-      "avg_score": 0.6,
+      "avg_score": 0.3,
       "dominant_sentiment": "positive"
     }
   },
@@ -522,18 +522,18 @@
           "emoji": "😐",
           "sentiment": "neutral",
           "score": 0,
-          "label_darija": "emoji"
+          "label_darija": "normal"
         },
         {
           "emoji": "🎤",
           "sentiment": "neutral",
-          "score": 0,
-          "label_darija": "emoji"
+          "score": 0.3,
+          "label_darija": "micro"
         }
       ],
-      "emoji_count": 0,
-      "total_score": 0,
-      "avg_score": 0,
+      "emoji_count": 2,
+      "total_score": 0.3,
+      "avg_score": 0.15,
       "dominant_sentiment": "neutral"
     }
   },
@@ -558,14 +558,14 @@
         },
         {
           "emoji": "🏆",
-          "sentiment": "neutral",
-          "score": 0,
-          "label_darija": "emoji"
+          "sentiment": "positive",
+          "score": 1,
+          "label_darija": "rebeh"
         }
       ],
-      "emoji_count": 1,
-      "total_score": 0.8,
-      "avg_score": 0.8,
+      "emoji_count": 2,
+      "total_score": 1.8,
+      "avg_score": 0.9,
       "dominant_sentiment": "positive"
     }
   },
@@ -577,7 +577,7 @@
     "event_type": "education",
     "source": "darija_events",
     "original_text": "دعوة للبحث: colloque في موكنين حول تاريخ المدينة — محاضرات وورشات من 30 أكتوبر لِـ1 نوفمبر 📅📖.",
-    "clean_text": "دعوه للبحث: colloque في موكنين حول تاريخ المدينه محاضرات وورشات chkoun 30 اكتوبر لـ1 نوفمبر",
+    "clean_text": "دعوه للبحث: colloque في موكنين حول تاريخ المدينه محاضرات وورشات chkoun a0 اكتوبر لـ1 نوفمبر",
     "original_lang": "ar",
     "normalized_lang": "darija",
     "emoji_sentiment": {
@@ -586,18 +586,18 @@
           "emoji": "📅",
           "sentiment": "neutral",
           "score": 0,
-          "label_darija": "emoji"
+          "label_darija": "date"
         },
         {
           "emoji": "📖",
           "sentiment": "neutral",
-          "score": 0,
-          "label_darija": "emoji"
+          "score": 0.2,
+          "label_darija": "kteb"
         }
       ],
-      "emoji_count": 0,
-      "total_score": 0,
-      "avg_score": 0,
+      "emoji_count": 2,
+      "total_score": 0.2,
+      "avg_score": 0.1,
       "dominant_sentiment": "neutral"
     }
   },
@@ -624,12 +624,12 @@
           "emoji": "🏛",
           "sentiment": "neutral",
           "score": 0,
-          "label_darija": "emoji"
+          "label_darija": "maalem"
         }
       ],
-      "emoji_count": 1,
+      "emoji_count": 2,
       "total_score": 0.8,
-      "avg_score": 0.8,
+      "avg_score": 0.4,
       "dominant_sentiment": "positive"
     }
   },
@@ -647,15 +647,15 @@
       "emojis": [
         {
           "emoji": "❤",
-          "sentiment": "neutral",
-          "score": 0,
-          "label_darija": "emoji"
+          "sentiment": "positive",
+          "score": 1,
+          "label_darija": "hob"
         }
       ],
-      "emoji_count": 0,
-      "total_score": 0,
-      "avg_score": 0,
-      "dominant_sentiment": "neutral"
+      "emoji_count": 1,
+      "total_score": 1,
+      "avg_score": 1.0,
+      "dominant_sentiment": "positive"
     }
   },
   {
@@ -674,7 +674,7 @@
           "emoji": "🏨",
           "sentiment": "neutral",
           "score": 0,
-          "label_darija": "emoji"
+          "label_darija": "hotel"
         },
         {
           "emoji": "🌟",
@@ -702,14 +702,14 @@
         },
         {
           "emoji": "🌅",
-          "sentiment": "neutral",
-          "score": 0,
-          "label_darija": "emoji"
+          "sentiment": "positive",
+          "score": 0.8,
+          "label_darija": "ghroub"
         }
       ],
-      "emoji_count": 4,
-      "total_score": 3.2,
-      "avg_score": 0.8,
+      "emoji_count": 6,
+      "total_score": 4.0,
+      "avg_score": 0.67,
       "dominant_sentiment": "positive"
     }
   },
@@ -720,7 +720,7 @@
     "event_type": "culture",
     "sentiment": "positive",
     "original_text": "مسابقة فيديو في المنستير! أبرزوا جمال المدينة وتراثها بعدسة إبداعكم 📽️🇹🇳 شاركوا بفيلم قصير واربحوا جوائز قيّمة! 📅 التاريخ: 2 و3 ماي 2025",
-    "clean_text": "مسابقه فيديو في mestir! ابرزوا جمال المدينه وتراثها بعدسه ابداعكم شاركوا بفيلم قصير واربحوا جواءز قيمه! التاريخ: 2 و3 ماي 2025",
+    "clean_text": "مسابقه فيديو في mestir! ابرزوا جمال المدينه وتراثها بعدسه ابداعكم شاركوا بفيلم قصير واربحوا جواءز قيمه! التاريخ: a وa ماي a0akh",
     "original_lang": "ar",
     "normalized_lang": "darija",
     "emoji_sentiment": {
@@ -729,18 +729,18 @@
           "emoji": "📽",
           "sentiment": "neutral",
           "score": 0,
-          "label_darija": "emoji"
+          "label_darija": "film"
         },
         {
           "emoji": "📅",
           "sentiment": "neutral",
           "score": 0,
-          "label_darija": "emoji"
+          "label_darija": "date"
         }
       ],
-      "emoji_count": 0,
+      "emoji_count": 2,
       "total_score": 0,
-      "avg_score": 0,
+      "avg_score": 0.0,
       "dominant_sentiment": "neutral"
     }
   },
@@ -758,21 +758,21 @@
       "emojis": [
         {
           "emoji": "❤",
-          "sentiment": "neutral",
-          "score": 0,
-          "label_darija": "emoji"
+          "sentiment": "positive",
+          "score": 1,
+          "label_darija": "hob"
         },
         {
           "emoji": "🛴",
           "sentiment": "neutral",
           "score": 0,
-          "label_darija": "emoji"
+          "label_darija": "trotinette"
         }
       ],
-      "emoji_count": 0,
-      "total_score": 0,
-      "avg_score": 0,
-      "dominant_sentiment": "neutral"
+      "emoji_count": 2,
+      "total_score": 1,
+      "avg_score": 0.5,
+      "dominant_sentiment": "positive"
     }
   },
   {
@@ -807,9 +807,9 @@
       "emojis": [
         {
           "emoji": "❤",
-          "sentiment": "neutral",
-          "score": 0,
-          "label_darija": "emoji"
+          "sentiment": "positive",
+          "score": 1,
+          "label_darija": "hob"
         },
         {
           "emoji": "💕",
@@ -825,13 +825,13 @@
         },
         {
           "emoji": "❤",
-          "sentiment": "neutral",
-          "score": 0,
-          "label_darija": "emoji"
+          "sentiment": "positive",
+          "score": 1,
+          "label_darija": "hob"
         }
       ],
-      "emoji_count": 2,
-      "total_score": 2,
+      "emoji_count": 4,
+      "total_score": 4,
       "avg_score": 1.0,
       "dominant_sentiment": "positive"
     }
@@ -1050,7 +1050,7 @@
     "sentiment": "negative",
     "event_type": "personal",
     "original_text": "@raouf_rezg15426 Monastir dans le parc Je rentre le 10 novembre et je n'ai pas envie de rentrer, comme à chaque fois.",
-    "clean_text": "raouf_rezg154266 mestir dans le parc je rentre le 10 novembre et je naii pas envie de narja, comme à chaque fois.",
+    "clean_text": "raouf_rezg1kh4at6 mestir dans le parc je rentre le 10 novembre et je naii pas envie de narja, comme à chaque fois.",
     "original_lang": "da",
     "normalized_lang": "darija",
     "emoji_sentiment": {
@@ -1104,7 +1104,7 @@
     "sentiment": "positive",
     "event_type": "sports",
     "original_text": "@Moha_mmed_1907 الشبيبة عاملين مشروع كويس جدا بيعتمدوا علي المواهب وكسبوا المنستير في تونس تلاتة صفر علي الواقف والجيش الملكي فريق كويس اضعف فريق يانج بس هيبقي غلس شوية علي ارضه",
-    "clean_text": "moha_mmed_19077 الشبيبه عاملين مشروع كويس جدا بيعتمدوا علي المواهب وكسبوا mestir في تونس تلاته صفر علي الواقف والجيش الملكي فريق كويس اضعف فريق يانج بس هيبقي غلس شويه علي ارضه",
+    "clean_text": "moha_mmed_1k0h7 الشبيبه عاملين مشروع كويس جدا بيعتمدوا علي المواهب وكسبوا mestir في تونس تلاته صفر علي الواقف والجيش الملكي فريق كويس اضعف فريق يانج بس هيبقي غلس شويه علي ارضه",
     "original_lang": "ar",
     "normalized_lang": "darija",
     "emoji_sentiment": {
@@ -1122,7 +1122,7 @@
     "sentiment": "negative",
     "event_type": "sports",
     "original_text": "@samiestt اعتقد صعب التوقع حاليا لكن شبيبة القيائل قوي جدا فازو على المنستير 5-1 وهو رقم صعب تاريخيا في افريقيا وحاليا في الجزائر",
-    "clean_text": "samiesttt اعتقد صعب التوقع حاليا لكن شبيبه القياءل قوي جدا فازو علي mestir 511 وهو رقم صعب تاريخيا في افريقيا وحاليا في الجزاءر",
+    "clean_text": "samiesttt اعتقد صعب التوقع حاليا لكن شبيبه القياءل قوي جدا فازو علي mestir kh11 وهو رقم صعب تاريخيا في افريقيا وحاليا في الجزاءر",
     "original_lang": "ar",
     "normalized_lang": "darija",
     "emoji_sentiment": {
@@ -1140,7 +1140,7 @@
     "sentiment": "positive",
     "event_type": "sports",
     "original_text": "@Skobii942 Chermiti si il continue comme ca il va finire en usmo Monastir pour lancer sa carriere 😂",
-    "clean_text": "skobii9422 chermiti si il continue comme ca il va finire en usmo mestir pour lancer sa carriere",
+    "clean_text": "skobiik4a2 chermiti si il continue comme ca il va finire en usmo mestir pour lancer sa carriere",
     "original_lang": "da",
     "normalized_lang": "darija",
     "emoji_sentiment": {
@@ -1201,22 +1201,22 @@
     "event_type": "tourisme",
     "source": "facebookecrit",
     "original_text": "3aslema les gens 🙌 sbah el khir men Monastir 🌞 el b7ar elyoum hbel 😍💙",
-    "clean_text": "3aslema les ness sbah el khir men mestir el b7ar lyoum hbel",
+    "clean_text": "aaslema les ness sbah el khir men mestir el bhar lyoum hbel",
     "original_lang": "da",
     "normalized_lang": "darija",
     "emoji_sentiment": {
       "emojis": [
         {
           "emoji": "🙌",
-          "sentiment": "neutral",
-          "score": 0,
-          "label_darija": "emoji"
+          "sentiment": "positive",
+          "score": 0.9,
+          "label_darija": "tok_aleha"
         },
         {
           "emoji": "🌞",
-          "sentiment": "neutral",
-          "score": 0,
-          "label_darija": "emoji"
+          "sentiment": "positive",
+          "score": 0.8,
+          "label_darija": "chams"
         },
         {
           "emoji": "😍",
@@ -1226,14 +1226,14 @@
         },
         {
           "emoji": "💙",
-          "sentiment": "neutral",
-          "score": 0,
-          "label_darija": "emoji"
+          "sentiment": "positive",
+          "score": 1,
+          "label_darija": "hob"
         }
       ],
-      "emoji_count": 1,
-      "total_score": 1,
-      "avg_score": 1.0,
+      "emoji_count": 4,
+      "total_score": 3.7,
+      "avg_score": 0.93,
       "dominant_sentiment": "positive"
     }
   },
@@ -1244,7 +1244,7 @@
     "event_type": "trafic",
     "source": "facebookecrit",
     "original_text": "thama trafik 9wi fel centre 😩 makch tnajm tet3eda b karhba!",
-    "clean_text": "fama trafik 9wi fel west bled makch tnajm tet3eda b karhba!",
+    "clean_text": "fama trafik kwi fel west bled makch tnajm tetaeda b karhba!",
     "original_lang": "da",
     "normalized_lang": "darija",
     "emoji_sentiment": {
@@ -1269,7 +1269,7 @@
     "event_type": "tourisme",
     "source": "facebookecrit",
     "original_text": "barcha ness fi corniche Monastir 🎉 jaw raw3a w musique 3alya 🔥",
-    "clean_text": "barcha ness fi corniche mestir jaw raw3a w musique 3alya",
+    "clean_text": "barcha ness fi corniche mestir jaw rawaa w musique aalya",
     "original_lang": "da",
     "normalized_lang": "darija",
     "emoji_sentiment": {
@@ -1300,7 +1300,7 @@
     "event_type": "panne_électrique",
     "source": "facebookecrit",
     "original_text": "9ass l courant fi Khniss w hatta notification ma fama 😠 ye5y STEG winhom?",
-    "clean_text": "9ass l courant fi khniss w hatta notification ma fama ye5y steg winhom?",
+    "clean_text": "kass l courant fi khniss w hatta notification ma fama yekhy steg winhom?",
     "original_lang": "da",
     "normalized_lang": "darija",
     "emoji_sentiment": {
@@ -1325,7 +1325,7 @@
     "event_type": "sport",
     "source": "facebookecrit",
     "original_text": "USMonastir 3malet match heyel 🔥🏀 respect les gars!",
-    "clean_text": "us mestir 3malet match heyel respect les gars!",
+    "clean_text": "us mestir amalet match heyel respect les gars!",
     "original_lang": "da",
     "normalized_lang": "darija",
     "emoji_sentiment": {
@@ -1339,13 +1339,13 @@
         {
           "emoji": "🏀",
           "sentiment": "neutral",
-          "score": 0,
-          "label_darija": "emoji"
+          "score": 0.2,
+          "label_darija": "basket"
         }
       ],
-      "emoji_count": 1,
-      "total_score": 0.9,
-      "avg_score": 0.9,
+      "emoji_count": 2,
+      "total_score": 1.1,
+      "avg_score": 0.55,
       "dominant_sentiment": "positive"
     }
   },
@@ -1356,22 +1356,22 @@
     "event_type": "environnement",
     "source": "facebookecrit",
     "original_text": "el plage m3abba zbel 🤢 wallahi 3ib 3la baladiya ma tnadhefch",
-    "clean_text": "el bhar m3abba zbel wallah 3ib 3la baladiya ma tnadhefch",
+    "clean_text": "el bhar maabba zbel wallah aib ala baladiya ma tnadhefch",
     "original_lang": "da",
     "normalized_lang": "darija",
     "emoji_sentiment": {
       "emojis": [
         {
           "emoji": "🤢",
-          "sentiment": "neutral",
-          "score": 0,
-          "label_darija": "emoji"
+          "sentiment": "negative",
+          "score": -0.9,
+          "label_darija": "mokref"
         }
       ],
-      "emoji_count": 0,
-      "total_score": 0,
-      "avg_score": 0,
-      "dominant_sentiment": "neutral"
+      "emoji_count": 1,
+      "total_score": -0.9,
+      "avg_score": -0.9,
+      "dominant_sentiment": "negative"
     }
   },
   {
@@ -1381,7 +1381,7 @@
     "event_type": "vie_locale",
     "source": "facebookecrit",
     "original_text": "9a3din nochrbou 9ahwa ☕ fel port w na7kiw 3la jaw Monastir 😌",
-    "clean_text": "9a3din nochrbou 9ahwa fel port w na7kiw 3la jaw mestir",
+    "clean_text": "kaadin nochrbou kahwa fel port w nahkiw ala jaw mestir",
     "original_lang": "da",
     "normalized_lang": "darija",
     "emoji_sentiment": {
@@ -1389,20 +1389,20 @@
         {
           "emoji": "☕",
           "sentiment": "neutral",
-          "score": 0,
-          "label_darija": "emoji"
+          "score": 0.2,
+          "label_darija": "kahwa"
         },
         {
           "emoji": "😌",
-          "sentiment": "neutral",
-          "score": 0,
-          "label_darija": "emoji"
+          "sentiment": "positive",
+          "score": 0.7,
+          "label_darija": "mertah"
         }
       ],
-      "emoji_count": 0,
-      "total_score": 0,
-      "avg_score": 0,
-      "dominant_sentiment": "neutral"
+      "emoji_count": 2,
+      "total_score": 0.9,
+      "avg_score": 0.45,
+      "dominant_sentiment": "positive"
     }
   },
   {
@@ -1412,7 +1412,7 @@
     "event_type": "transport",
     "source": "facebookecrit",
     "original_text": "el car wa5ret barcha 😤 w nas mtaycha fel mahata ma fama 7ata tanthim",
-    "clean_text": "el car wa5ret barcha w ness mtaycha fel mahata ma fama 7ata tanthim",
+    "clean_text": "el car wakhret barcha w ness mtaycha fel mahata ma fama hata tanthim",
     "original_lang": "da",
     "normalized_lang": "darija",
     "emoji_sentiment": {
@@ -1437,16 +1437,16 @@
     "event_type": "culture",
     "source": "facebookecrit",
     "original_text": "festival el Medina bda lyom 💃 jaw 3alekher w el musique top 👏",
-    "clean_text": "festival el medina bda lyoum jaw 3alekher w el musique top",
+    "clean_text": "festival el medina bda lyoum jaw aalekher w el musique top",
     "original_lang": "da",
     "normalized_lang": "darija",
     "emoji_sentiment": {
       "emojis": [
         {
           "emoji": "💃",
-          "sentiment": "neutral",
-          "score": 0,
-          "label_darija": "emoji"
+          "sentiment": "positive",
+          "score": 0.9,
+          "label_darija": "jaw"
         },
         {
           "emoji": "👏",
@@ -1455,8 +1455,8 @@
           "label_darija": "bravo"
         }
       ],
-      "emoji_count": 1,
-      "total_score": 0.9,
+      "emoji_count": 2,
+      "total_score": 1.8,
       "avg_score": 0.9,
       "dominant_sentiment": "positive"
     }
@@ -1468,7 +1468,7 @@
     "event_type": "panne_internet",
     "source": "facebookecrit",
     "original_text": "el connexion ta7et 😩 7ala 7lila",
-    "clean_text": "el connexion ta7et 7ala 7lila",
+    "clean_text": "el connexion tahet hala hlila",
     "original_lang": "da",
     "normalized_lang": "darija",
     "emoji_sentiment": {

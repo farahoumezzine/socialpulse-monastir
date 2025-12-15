@@ -28,6 +28,15 @@ EMOJI_SENTIMENT_MAP = {
     '😎': {'sentiment': 'positive', 'score': 0.7, 'label': 'jaw'},
     '🌟': {'sentiment': 'positive', 'score': 0.8, 'label': 'jaw'},
     '🎶': {'sentiment': 'positive', 'score': 0.6, 'label': 'jaw'},
+      # Positifs supplémentaires
+    '💃':  {'sentiment': 'positive', 'score': 0.9, 'label': 'jaw'},
+    '😌': {'sentiment': 'positive', 'score': 0.7, 'label': 'mertah'},
+    '💙': {'sentiment': 'positive', 'score': 1, 'label': 'hob'},
+    '🌞': {'sentiment': 'positive', 'score': 0.8, 'label': 'chams'},
+    '🙌':  {'sentiment': 'positive', 'score': 0.9, 'label': 'tok_aleha'},
+    '❤':  {'sentiment': 'positive', 'score': 1, 'label': 'hob'},
+    '🌅': {'sentiment': 'positive', 'score': 0.8, 'label': 'ghroub'},
+    '🏆': {'sentiment': 'positive', 'score': 1, 'label': 'rebeh'},
     # Négatif
     '😢': {'sentiment': 'negative', 'score': -0.8, 'label': 'hzin'},
     '😭': {'sentiment': 'negative', 'score': -1, 'label': 'yebki'},
@@ -43,7 +52,11 @@ EMOJI_SENTIMENT_MAP = {
     '😒': {'sentiment': 'negative', 'score': -0.6, 'label': 'mech_ajbou'},
     '😞': {'sentiment': 'negative', 'score': -0.7, 'label': 'hzin'},
     '😔': {'sentiment': 'negative', 'score': -0.6, 'label': 'hzin'},
-    
+      # Négatifs supplémentaires
+    '🤢': {'sentiment': 'negative', 'score': -0.9, 'label':  'mokref'},
+    '😕': {'sentiment': 'negative', 'score': -0.5, 'label': 'mech_fehim'},
+    '😓': {'sentiment': 'negative', 'score': -0.6, 'label': 'taab'},
+    '🥴':  {'sentiment': 'negative', 'score': -0.5, 'label': 'mouch_merteh'},
     # Neutre
     '🤔': {'sentiment': 'neutral', 'score': 0, 'label': 'yfaker'},
     '🤷': {'sentiment': 'neutral', 'score': 0, 'label': 'marefch'},
@@ -52,20 +65,144 @@ EMOJI_SENTIMENT_MAP = {
     '🚗': {'sentiment': 'neutral', 'score': 0, 'label': 'karhba'},
     '🏖️': {'sentiment': 'neutral', 'score': 0.3, 'label': 'bhar'},
     '⚽': {'sentiment': 'neutral', 'score': 0.2, 'label': 'koura'},
+    '🏨': {'sentiment': 'neutral', 'score': 0, 'label': 'hotel'},
+    '🏛': {'sentiment': 'neutral', 'score': 0, 'label': 'maalem'},
+    # Neutres supplémentaires
+    '☕': {'sentiment': 'neutral', 'score': 0.2, 'label': 'kahwa'},
+    '🏀': {'sentiment': 'neutral', 'score': 0.2, 'label': 'basket'},
+    '🛴': {'sentiment': 'neutral', 'score': 0, 'label': 'trotinette'},
+    '📅':  {'sentiment': 'neutral', 'score': 0, 'label': 'date'},
+    '📽': {'sentiment': 'neutral', 'score': 0, 'label': 'film'},
+    '📖': {'sentiment': 'neutral', 'score': 0.2, 'label': 'kteb'},
+    '🎤': {'sentiment': 'neutral', 'score': 0.3, 'label': 'micro'},
+    '😐': {'sentiment': 'neutral', 'score': 0, 'label': 'normal'},
+    '📚': {'sentiment': 'neutral', 'score': 0.2, 'label': 'ktob'},
+    '💡': {'sentiment': 'neutral', 'score': 0.1, 'label': 'fikra'},
+    '🎭': {'sentiment': 'neutral', 'score': 0.3, 'label': 'masrah'},
+    '🎨': {'sentiment': 'neutral', 'score': 0.4, 'label': 'fann'},
+    '🥬': {'sentiment': 'neutral', 'score': 0, 'label': 'khodhra'},
+    '🍳':  {'sentiment': 'neutral', 'score': 0.1, 'label': 'tabkh'},
+    '👩': {'sentiment': 'neutral', 'score': 0, 'label': 'mra'},
+    '📢': {'sentiment': 'neutral', 'score': 0, 'label': 'ilan'},
+}
+
+# ============================================
+# EMOJIS CONTEXTUELS (Ambigus)
+# ============================================
+CONTEXT_DEPENDENT_EMOJIS = {
+    '🔊': {
+        'positive_context': ['festival', 'fete', 'jaw', 'ambiance', 'musique', 'hbel', 'rawaa', 'heyel', 'concert', 'party', 'sahriya', 'match'],
+        'negative_context': ['bruit', 'kwi', 'derangement', 'sot', 'ali', 'barcha', 'mochkla', 'hess'],
+        'positive_label': 'ambiance',
+        'negative_label': 'sot_ali',
+        'neutral_label': 'sot',
+        'positive_score': 0.6,
+        'negative_score':  -0.5,
+    },
+    '🚧':  {
+        'positive_context':  ['tajdid', 'isalhou', 'tahsin', 'travaux', 'amelioration'],
+        'negative_context': ['zahma', 'trafic', 'mochkla', 'nestanaw', 'retard', 'habsin', 'msaker'],
+        'positive_label': 'islah',
+        'negative_label': 'achghal',
+        'neutral_label': 'achghal',
+        'positive_score': 0.3,
+        'negative_score':  -0.4,
+    },
+    '😬': {
+        'positive_context': ['hbel', 'rawaa', 'excitement', 'suspense', 'jaw'],
+        'negative_context': ['mochkla', 'khayeb', 'ghalat', 'fdhiha'],
+        'positive_label': 'excite',
+        'negative_label':  'mech_merta7',
+        'neutral_label': 'mech_merta7',
+        'positive_score': 0.4,
+        'negative_score':  -0.4,
+    },
+    '🌙': {
+        'positive_context': ['festival', 'sahriya', 'fete', 'lila', 'ramadan', 'sohour', 'ambiance', 'concert'],
+        'negative_context': ['nejmech_norked', 'insomnie', 'taab', 'mochkla','jenich_noum'],
+        'positive_label': 'lila_helwa',
+        'negative_label':  'lil',
+        'neutral_label': 'lil',
+        'positive_score': 0.5,
+        'negative_score':  -0.3,
+    },
+    '⏰': {
+        'positive_context': ['wakt', 'bda', 'commence', 'rappel'],
+        'negative_context': ['retard', 'makher', 'fout', 'fisa', 'testana', 'mochkla'],
+        'positive_label': 'wa9t',
+        'negative_label':  'takhir',
+        'neutral_label': 'wa9t',
+        'positive_score': 0.2,
+        'negative_score':  -0.4,
+    },
 }
 
 
+def get_emoji_sentiment_with_context(emoji_char, text):
+    """
+    Détermine le sentiment d'un emoji selon le contexte de la phrase.
+    
+    Args:
+        emoji_char: L'emoji à analyser
+        text: Le texte complet contenant l'emoji
+    
+    Returns:
+        dict: {'sentiment': str, 'score':  float, 'label': str}
+    """
+    # Si l'emoji n'est pas ambigu, utiliser le mapping normal
+    if emoji_char not in CONTEXT_DEPENDENT_EMOJIS:
+        if emoji_char in EMOJI_SENTIMENT_MAP:
+            info = EMOJI_SENTIMENT_MAP[emoji_char]
+            return {
+                'sentiment': info['sentiment'],
+                'score': info['score'],
+                'label': info['label']
+            }
+        # Emoji inconnu
+        return {'sentiment': 'neutral', 'score': 0, 'label': 'emoji'}
+    
+    # Emoji ambigu - analyser le contexte
+    context_info = CONTEXT_DEPENDENT_EMOJIS[emoji_char]
+    text_lower = text.lower()
+    
+    # Compter les mots de contexte positif et négatif
+    positive_count = sum(1 for word in context_info['positive_context'] if word in text_lower)
+    negative_count = sum(1 for word in context_info['negative_context'] if word in text_lower)
+    
+    # Décider selon le contexte dominant
+    if positive_count > negative_count:
+        return {
+            'sentiment': 'positive',
+            'score': context_info['positive_score'],
+            'label': context_info['positive_label']
+        }
+    elif negative_count > positive_count:
+        return {
+            'sentiment': 'negative',
+            'score': context_info['negative_score'],
+            'label': context_info['negative_label']
+        }
+    else: 
+        # Contexte neutre ou égalité
+        return {
+            'sentiment': 'neutral',
+            'score': 0,
+            'label': context_info['neutral_label']
+        }
+    
 def extract_emoji_sentiment(text):
     """
     Extrait les emojis du texte et calcule un score de sentiment agrégé.
+    Utilise l'analyse contextuelle pour les emojis ambigus. 
     """
     found_emojis = []
     total_score = 0
     emoji_count = 0
     
     for char in text:
-        if char in EMOJI_SENTIMENT_MAP:
-            emoji_info = EMOJI_SENTIMENT_MAP[char]
+        if char in EMOJI_SENTIMENT_MAP or char in CONTEXT_DEPENDENT_EMOJIS:
+            # Utiliser l'analyse contextuelle
+            emoji_info = get_emoji_sentiment_with_context(char, text)
             found_emojis.append({
                 'emoji': char,
                 'sentiment': emoji_info['sentiment'],
@@ -75,23 +212,24 @@ def extract_emoji_sentiment(text):
             total_score += emoji_info['score']
             emoji_count += 1
         elif emoji. is_emoji(char):
+            # Emoji non mappé - traité comme neutre
             found_emojis.append({
-                'emoji': char,
+                'emoji':  char,
                 'sentiment': 'neutral',
-                'score': 0,
+                'score':  0,
                 'label_darija': 'emoji'
             })
+            emoji_count += 1
     
     avg_score = total_score / emoji_count if emoji_count > 0 else 0
     
     return {
         'emojis': found_emojis,
         'emoji_count': emoji_count,
-        'total_score': total_score,
-        'avg_score': avg_score,
+        'total_score': round(total_score, 2),
+        'avg_score': round(avg_score, 2),
         'dominant_sentiment': 'positive' if avg_score > 0.2 else ('negative' if avg_score < -0.2 else 'neutral')
     }
-
 
 def remove_emojis(text):
     """Supprime tous les emojis du texte après extraction."""
@@ -533,12 +671,6 @@ def normalize_to_darija(text):
     """
     Normalise le texte vers le Darija tunisien.
     Convertit Français, Arabe standard, et variantes Darija vers une forme commune.
-
-       Pipeline: 
-    1. Convertir les chiffres Darija (3, 7, 9, 5) vers lettres
-    2. Chercher dans les dictionnaires de normalisation
-    3. Convertir Français -> Darija
-    4. Convertir Arabe -> Darija
     """
     text_lower = text.lower()
     words = text_lower.split()
@@ -551,36 +683,38 @@ def normalize_to_darija(text):
         
         if not clean_word:
             continue
-            
-        # Garder certains mots tels quels
-        if clean_word in KEEP_AS_IS:
-            normalized_words.append(clean_word + punctuation)
-            continue
         
-        # ÉTAPE 1: Convertir les chiffres Darija vers lettres
+        # ══════════════════════════════════════════════════════════
+        # ÉTAPE 1: TOUJOURS convertir les chiffres Darija d'abord! 
+        # ══════════════════════════════════════════════════════════
         converted_word = convert_darija_numbers_smart(clean_word)
+        
+        # Garder certains mots tels quels (après conversion des chiffres)
+        if converted_word in KEEP_AS_IS:
+            normalized_words. append(converted_word + punctuation)
+            continue
         
         # ÉTAPE 2: Vérifier dans le dictionnaire de normalisation Darija
         if converted_word in DARIJA_NORMALIZATION:
             normalized_words.append(DARIJA_NORMALIZATION[converted_word] + punctuation)
             continue
-            
-        # 2. Vérifier Français -> Darija
+        
+        # ÉTAPE 3: Vérifier Français -> Darija (mot original sans chiffres)
         if clean_word in FRENCH_TO_DARIJA:
             normalized_words.append(FRENCH_TO_DARIJA[clean_word] + punctuation)
             continue
             
-        # 3. Vérifier Arabe -> Darija
-        if clean_word in ARABIC_TO_DARIJA:
+        # ÉTAPE 4: Vérifier Arabe -> Darija
+        if clean_word in ARABIC_TO_DARIJA: 
             normalized_words.append(ARABIC_TO_DARIJA[clean_word] + punctuation)
             continue
         
-        # 4. Convertir les chiffres arabes (3, 7, 9, 5, 2) - garder tels quels en Darija
-        # Le mot reste en Darija translittéré
-        normalized_words. append(clean_word + punctuation)
+        # ══════════════════════════════════════════════════════════
+        # ÉTAPE 5: Garder le mot CONVERTI (avec chiffres remplacés)
+        # ══════════════════════════════════════════════════════════
+        normalized_words.append(converted_word + punctuation)
     
-    return ' '. join(normalized_words)
-
+    return ' '.join(normalized_words)
 
 def normalize_arabic_chars(text):
     """Normalise les caractères arabes."""
