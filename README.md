@@ -23,3 +23,8 @@ To run scripts that require the X API, create a `.env` file in the project root:
 
 Data AUgmentation in data
 add triger emoji with sentim in preprocc
+
+
+
+ajouter probleme d'ironie
+tuniBert (dialect tunisien) traveiller deux modeles
