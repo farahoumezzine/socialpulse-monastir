@@ -1,18 +1,24 @@
 """
 SocialPulse Monastir - Dashboard Streamlit
 ==========================================
-Interface web pour l'analyse de sentiment. 
-
+Interface web pour l'analyse de sentiment et la détection d'événements.
 """
-
 import streamlit as st
 import requests
 import pandas as pd
+from datetime import datetime
+import plotly.express as px
+
+# Import du module de détection d'événements (assure-toi que topic_engine.py est présent)
+try:
+    from topic_engine import TopicEventAnalyzer
+    TOPIC_MODULE_AVAILABLE = True
+except ImportError:
+    TOPIC_MODULE_AVAILABLE = False
 
 # ============================================================
 # CONFIGURATION
 # ============================================================
-
 st.set_page_config(
     page_title="SocialPulse Monastir",
     page_icon="📊",
@@ -24,7 +30,6 @@ API_URL = "http://localhost:5000"
 # ============================================================
 # FONCTIONS
 # ============================================================
-
 def check_api():
     """Vérifie si l'API est en ligne."""
     try:
@@ -32,7 +37,6 @@ def check_api():
         return response.status_code == 200
     except:
         return False
-
 
 def analyze_text(text, model="bert"):
     """Analyse le sentiment d'un texte."""
@@ -46,7 +50,6 @@ def analyze_text(text, model="bert"):
     except Exception as e:
         return {"success": False, "error": str(e)}
 
-
 def analyze_batch(texts, model="bert"):
     """Analyse plusieurs textes."""
     try:
@@ -55,10 +58,9 @@ def analyze_batch(texts, model="bert"):
             json={"texts": texts, "model": model},
             timeout=30
         )
-        return response. json()
+        return response.json()
     except Exception as e:
         return {"success": False, "error": str(e)}
-
 
 # ============================================================
 # INTERFACE
@@ -66,12 +68,12 @@ def analyze_batch(texts, model="bert"):
 
 # Header
 st.title("📊 SocialPulse Monastir")
-st.markdown("**Analyse de Sentiment en Darija Tunisien**")
+st.markdown("**Analyse de Sentiment & Détection d'Événements en Darija Tunisien**")
 st.markdown("---")
 
 # Sidebar
 with st.sidebar:
-    st. header("⚙️ Configuration")
+    st.header("⚙️ Configuration")
     
     # API Status
     api_online = check_api()
@@ -85,7 +87,7 @@ with st.sidebar:
     
     # Model selection
     model = st.selectbox(
-        "Modèle",
+        "Modèle Sentiment",
         ["bert", "sklearn"],
         format_func=lambda x: "🤖 BERT (CAMeLBERT)" if x == "bert" else "📈 Naive Bayes"
     )
@@ -96,20 +98,18 @@ with st.sidebar:
     st.markdown("### 📝 À propos")
     st.markdown("""
     **SocialPulse Monastir**  
-    Projet NLP - Analyse de sentiment
-    
-   
+    Projet NLP - Surveillance Urbaine
     """)
 
 # Main content
-tab1, tab2, tab3 = st.tabs(["🔍 Analyse Simple", "📋 Analyse en Lot", "📈 Statistiques"])
+# Ajout du nouvel onglet "Détection d'Événements"
+tab1, tab2, tab3, tab4 = st.tabs(["🔍 Analyse Simple", "📋 Analyse en Lot", "📈 Statistiques", "🌍 Détection d'Événements"])
 
 # ============================================================
 # TAB 1: Analyse Simple
 # ============================================================
-
 with tab1:
-    st. header("🔍 Analyser un texte")
+    st.header("🔍 Analyser un texte")
     
     # Input
     text_input = st.text_area(
@@ -118,7 +118,7 @@ with tab1:
         height=120
     )
     
-    col1, col2 = st. columns([1, 4])
+    col1, col2 = st.columns([1, 4])
     with col1:
         analyze_btn = st.button("🔍 Analyser", type="primary", use_container_width=True)
     
@@ -130,21 +130,20 @@ with tab1:
             with st.spinner("Analyse en cours..."):
                 result = analyze_text(text_input, model)
             
-            if result. get("success"):
-                st. markdown("---")
+            if result.get("success"):
+                st.markdown("---")
                 st.subheader("📊 Résultat")
                 
                 # Sentiment display
                 sentiment = result["sentiment"]
                 confidence = result["confidence"]
                 emoji_map = {"positive": "😊", "negative": "😞", "neutral": "😐"}
-                color_map = {"positive": "green", "negative": "red", "neutral": "gray"}
                 
                 col1, col2, col3 = st.columns(3)
                 
                 with col1:
                     st.markdown(f"### {emoji_map.get(sentiment, '😐')}")
-                    st.markdown(f"**{sentiment. upper()}**")
+                    st.markdown(f"**{sentiment.upper()}**")
                 
                 with col2:
                     st.metric("Confiance", f"{confidence}%")
@@ -158,10 +157,10 @@ with tab1:
                 
                 col1, col2, col3 = st.columns(3)
                 with col1:
-                    st. progress(probs. get("positive", 0) / 100)
-                    st.caption(f"✅ Positive: {probs. get('positive', 0)}%")
+                    st.progress(probs.get("positive", 0) / 100)
+                    st.caption(f"✅ Positive: {probs.get('positive', 0)}%")
                 with col2:
-                    st. progress(probs.get("neutral", 0) / 100)
+                    st.progress(probs.get("neutral", 0) / 100)
                     st.caption(f"⚪ Neutral: {probs.get('neutral', 0)}%")
                 with col3:
                     st.progress(probs.get("negative", 0) / 100)
@@ -170,12 +169,11 @@ with tab1:
                 st.error(f"❌ Erreur:  {result.get('error', 'Erreur inconnue')}")
     
     elif analyze_btn and not text_input:
-        st. warning("⚠️ Veuillez entrer un texte à analyser")
+        st.warning("⚠️ Veuillez entrer un texte à analyser")
 
 # ============================================================
 # TAB 2: Analyse en Lot
 # ============================================================
-
 with tab2:
     st.header("📋 Analyse en lot")
     
@@ -197,7 +195,7 @@ with tab2:
                 with st.spinner(f"Analyse de {len(texts)} textes..."):
                     result = analyze_batch(texts, model)
                 
-                if result. get("success"):
+                if result.get("success"):
                     st.markdown("---")
                     
                     # Summary
@@ -219,7 +217,7 @@ with tab2:
                         "Sentiment": ["Positive", "Neutral", "Negative"],
                         "Count": [summary["positive"], summary["neutral"], summary["negative"]]
                     })
-                    st.bar_chart(chart_data. set_index("Sentiment"))
+                    st.bar_chart(chart_data.set_index("Sentiment"))
                     
                     # Table
                     st.subheader("📋 Détails")
@@ -236,7 +234,6 @@ with tab2:
 # ============================================================
 # TAB 3: Statistiques
 # ============================================================
-
 with tab3:
     st.header("📈 Statistiques")
     
@@ -262,10 +259,10 @@ with tab3:
             with st.spinner("Analyse des exemples..."):
                 result = analyze_batch(test_texts, model)
             
-            if result. get("success"):
+            if result.get("success"):
                 summary = result["summary"]
                 
-                col1, col2 = st. columns(2)
+                col1, col2 = st.columns(2)
                 
                 with col1:
                     st.markdown("#### Distribution")
@@ -279,7 +276,99 @@ with tab3:
                     st.markdown("#### Résultats")
                     for r in result["results"]:
                         emoji = {"positive": "✅", "negative": "❌", "neutral": "⚪"}.get(r["sentiment"], "•")
-                        st.write(f"{emoji} {r['text'][: 30]}...  → **{r['sentiment']}** ({r['confidence']}%)")
+                        st.write(f"{emoji} {r['text'][:30]}...  → **{r['sentiment']}** ({r['confidence']}%)")
+
+# ============================================================
+# TAB 4: Détection d'Événements (NOUVEAU)
+# ============================================================
+with tab4:
+    st.header("🌍 Détection d'Événements & Sujets")
+    st.markdown("Identifiez les tendances émergentes et les pics anormaux de discussion à Monastir.")
+
+    if not TOPIC_MODULE_AVAILABLE:
+        st.error("❌ Le module `topic_engine.py` est manquant. Veuillez l'ajouter au dossier.")
+    else:
+        # Simulation de données pour la démo si pas de CSV chargé
+        # Dans un vrai cas, tu chargerais ça depuis ton API ou une Base de Données
+        st.info("💡 Chargez un fichier CSV contenant une colonne 'text' et 'created_at' pour une analyse réelle.")
+        
+        uploaded_file = st.file_uploader("Charger un dataset CSV (Optionnel)", type=["csv"])
+        
+        if uploaded_file is not None:
+            df_events = pd.read_csv(uploaded_file)
+            st.success(f"Dataset chargé : {len(df_events)} lignes")
+        else:
+            # Création de fausses données pour tester l'interface
+            dates = pd.date_range(start="2023-10-01", periods=100, freq="H")
+            data_fake = {
+                "text": ["Traffic jam center"]*20 + ["Beautiful beach"]*30 + ["Power outage"]*10 + ["Normal day"]*40,
+                "created_at": dates
+            }
+            df_events = pd.DataFrame(data_fake)
+            st.caption("⚠️ Utilisation de données de démonstration (Trafic, Plage, Panne).")
+
+        # Bouton d'analyse
+        if st.button("🚀 Lancer l'analyse des tendances (Topics)", type="primary"):
+            if 'text' not in df_events.columns:
+                 st.error("Le CSV doit contenir une colonne 'text'.")
+            else:
+                with st.spinner('Analyse sémantique en cours avec BERTopic (Ceci peut prendre du temps)...'):
+                    try:
+                        analyzer = TopicEventAnalyzer()
+                        
+                        # Préparation des données
+                        docs = df_events['text'].astype(str).tolist()
+                        # Si 'created_at' n'existe pas, on simule des dates
+                        if 'created_at' in df_events.columns:
+                            timestamps = pd.to_datetime(df_events['created_at']).tolist()
+                        else:
+                            timestamps = pd.date_range(start="2023-01-01", periods=len(docs)).tolist()
+
+                        # Exécution
+                        topics, topic_info, topics_over_time = analyzer.extract_topics(docs, timestamps)
+                        
+                        # Sauvegarde Session State
+                        st.session_state['topic_data'] = {
+                            'model': analyzer.topic_model,
+                            'topics_over_time': topics_over_time,
+                            'analyzer': analyzer
+                        }
+                        st.success("Analyse terminée !")
+                    except Exception as e:
+                        st.error(f"Erreur durant l'analyse : {str(e)}")
+
+        # Affichage des résultats
+        if 'topic_data' in st.session_state:
+            data = st.session_state['topic_data']
+            tm = data['model']
+            topics_over_time = data['topics_over_time']
+            analyzer = data['analyzer']
+
+            # Section 1: Visualisation des Topics
+            st.subheader("📌 Sujets dominants")
+            try:
+                fig_topics = tm.visualize_barchart(top_n_topics=8)
+                st.plotly_chart(fig_topics, use_container_width=True)
+            except Exception as e:
+                st.warning("Pas assez de données pour générer le graphique des topics.")
+
+            # Section 2: Évolution Temporelle
+            st.subheader("📈 Évolution temporelle")
+            try:
+                fig_time = tm.visualize_topics_over_time(topics_over_time)
+                st.plotly_chart(fig_time, use_container_width=True)
+            except Exception as e:
+                 st.warning("Impossible de visualiser l'évolution temporelle (données insufisantes ?).")
+
+            # Section 3: Alertes
+            st.subheader("🚨 Alertes & Anomalies")
+            alerts_df = analyzer.detect_anomalies(topics_over_time)
+            
+            if not alerts_df.empty:
+                st.error(f"{len(alerts_df)} événements anormaux détectés !")
+                st.dataframe(alerts_df, use_container_width=True)
+            else:
+                st.success("Aucune anomalie majeure détectée sur la période.")
 
 # Footer
 st.markdown("---")
