@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SocialPulse Monastir - Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2? family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <span class="logo-icon">📊</span>
+                <h1>SocialPulse <span>Monastir</span></h1>
+            </div>
+            <p class="tagline">Analyse de Sentiment en Darija Tunisien</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <div class="container">
+            
+            <!-- Input Section -->
+            <section class="input-section">
+                <h2>📝 Analyser un texte</h2>
+                <div class="input-group">
+                    <textarea 
+                        id="textInput" 
+                        placeholder="Entrez votre texte en Darija ou en Arabe... &#10;&#10;Exemples: &#10;- الجو رائع في المنستير&#10;- مشكلة كبيرة وزحمة&#10;- jaw rawaa barcha"
+                        rows="4"
+                    ></textarea>
+                    <div class="button-group">
+                        <button id="analyzeBtn" class="btn btn-primary">
+                            🔍 Analyser
+                        </button>
+                        <button id="clearBtn" class="btn btn-secondary">
+                            🗑️ Effacer
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Model Selection -->
+                <div class="model-selection">
+                    <label>Modèle:</label>
+                    <select id="modelSelect">
+                        <option value="bert">🤖 BERT (CAMeLBERT)</option>
+                        <option value="sklearn">📈 Naive Bayes</option>
+                    </select>
+                </div>
+            </section>
+
+            <!-- Result Section -->
+            <section id="resultSection" class="result-section hidden">
+                <h2>📊 Résultat</h2>
+                <div class="result-card">
+                    <div class="sentiment-display">
+                        <span id="sentimentEmoji" class="sentiment-emoji">😐</span>
+                        <span id="sentimentLabel" class="sentiment-label">NEUTRAL</span>
+                    </div>
+                    <div class="confidence-bar">
+                        <div class="confidence-label">
+                            Confiance: <span id="confidenceValue">0%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div id="progressFill" class="progress-fill"></div>
+                        </div>
+                    </div>
+                    <div class="probabilities">
+                        <h3>Probabilités</h3>
+                        <div class="prob-item positive">
+                            <span class="prob-label">✅ Positive</span>
+                            <div class="prob-bar">
+                                <div id="probPositive" class="prob-fill positive"></div>
+                            </div>
+                            <span id="probPositiveValue" class="prob-value">0%</span>
+                        </div>
+                        <div class="prob-item neutral">
+                            <span class="prob-label">⚪ Neutral</span>
+                            <div class="prob-bar">
+                                <div id="probNeutral" class="prob-fill neutral"></div>
+                            </div>
+                            <span id="probNeutralValue" class="prob-value">0%</span>
+                        </div>
+                        <div class="prob-item negative">
+                            <span class="prob-label">❌ Negative</span>
+                            <div class="prob-bar">
+                                <div id="probNegative" class="prob-fill negative"></div>
+                            </div>
+                            <span id="probNegativeValue" class="prob-value">0%</span>
+                        </div>
+                    </div>
+                    <div class="model-info">
+                        Modèle utilisé: <span id="modelUsed">-</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Batch Analysis Section -->
+            <section class="batch-section">
+                <h2>📋 Analyse en lot</h2>
+                <div class="input-group">
+                    <textarea 
+                        id="batchInput" 
+                        placeholder="Entrez plusieurs textes (un par ligne)...&#10;&#10;الجو رائع&#10;مشكلة كبيرة&#10;غدوة فما ماتش"
+                        rows="5"
+                    ></textarea>
+                    <button id="batchAnalyzeBtn" class="btn btn-primary">
+                        🔍 Analyser tout
+                    </button>
+                </div>
+            </section>
+
+            <!-- Batch Results -->
+            <section id="batchResultSection" class="batch-result-section hidden">
+                <h2>📊 Résultats en lot</h2>
+                
+                <!-- Summary -->
+                <div class="summary-cards">
+                    <div class="summary-card positive">
+                        <span class="summary-emoji">✅</span>
+                        <span id="summaryPositive" class="summary-count">0</span>
+                        <span class="summary-label">Positive</span>
+                    </div>
+                    <div class="summary-card neutral">
+                        <span class="summary-emoji">⚪</span>
+                        <span id="summaryNeutral" class="summary-count">0</span>
+                        <span class="summary-label">Neutral</span>
+                    </div>
+                    <div class="summary-card negative">
+                        <span class="summary-emoji">❌</span>
+                        <span id="summaryNegative" class="summary-count">0</span>
+                        <span class="summary-label">Negative</span>
+                    </div>
+                </div>
+
+                <!-- Results Table -->
+                <div class="results-table-container">
+                    <table class="results-table">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Texte</th>
+                                <th>Sentiment</th>
+                                <th>Confiance</th>
+                            </tr>
+                        </thead>
+                        <tbody id="batchResultsBody">
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- History Section -->
+            <section class="history-section">
+                <h2>📜 Historique</h2>
+                <div id="historyList" class="history-list">
+                    <p class="empty-history">Aucune analyse effectuée</p>
+                </div>
+                <button id="clearHistoryBtn" class="btn btn-secondary">
+                    🗑️ Effacer l'historique
+                </button>
+            </section>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>
+                <strong>SocialPulse Monastir</strong> - Projet NLP
+               
+            </p>
+            <div class="api-status">
+                API Status: <span id="apiStatus" class="status-indicator">⏳ Vérification... </span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Loading Overlay -->
+    <div id="loadingOverlay" class="loading-overlay hidden">
+        <div class="spinner"></div>
+        <p>Analyse en cours...</p>
+    </div>
+
+    <script src="js/app. js"></script>
+</body>
+</html>

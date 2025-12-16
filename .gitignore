@@ -1,3 +1,42 @@
 .env
 __pycache__/
 *.pyc
+# --- Environnements Virtuels (NE JAMAIS COMMITTER CA) ---
+venv/
+env/
+.env
+.venv/
+
+# --- Python Cache ---
+__pycache__/
+*.py[cod]
+*.so
+
+# --- IDE et Système ---
+.vscode/
+.idea/
+.DS_Store
+
+# --- Fichiers de données (Trop lourds pour Git) ---
+*.csv
+*.json
+*.parquet
+*.txt
+# Gardez peut-être un dossier 'sample_data' si besoin, mais ignorez le reste
+data/
+datasets/
+
+# --- Modèles NLP (HuggingFace, Torch, etc.) ---
+*.pt
+*.pth
+*.bin
+*.h5
+*.onnx
+models/
+output/
+
+# --- Notebooks checkup ---
+.ipynb_checkpoints/
+
+# --- Logs ---
+*.log
